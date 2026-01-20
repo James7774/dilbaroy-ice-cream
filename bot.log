@@ -1,0 +1,1546 @@
+2026-01-18 00:06:52,024 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850266:AAHALon9Fx79QqXWZIfMyOaprXQS7NLvBXQ/getMe "HTTP/1.1 401 Unauthorized"
+2026-01-18 00:09:34,493 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getMe "HTTP/1.1 200 OK"
+2026-01-18 00:09:34,635 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/deleteWebhook "HTTP/1.1 200 OK"
+2026-01-18 00:09:34,639 - telegram.ext.Application - INFO - Application started
+2026-01-18 00:09:45,080 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:09:55,297 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:09:55,472 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:09:55,917 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:09:55,920 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:10:05,617 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:10:10,263 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:10:10,794 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:10:12,975 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:10:13,193 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-01-18 00:10:13,415 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/editMessageText "HTTP/1.1 200 OK"
+2026-01-18 00:10:23,131 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:10:33,533 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:10:43,771 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:10:54,080 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:11:04,229 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:11:14,492 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:11:24,652 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:11:34,979 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:11:45,122 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:11:55,518 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:12:05,668 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:12:16,000 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:12:26,159 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:12:36,412 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:12:46,599 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:12:56,906 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:13:07,045 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:13:17,440 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:13:27,612 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:13:37,876 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:13:48,092 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:13:58,360 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:14:08,641 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:14:18,907 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:14:29,056 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:14:39,204 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:14:49,348 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:14:59,491 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:15:09,630 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:15:19,770 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:15:29,930 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:15:40,071 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:15:47,802 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:15:48,430 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:15:53,041 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:15:53,286 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-01-18 00:15:53,502 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/editMessageText "HTTP/1.1 200 OK"
+2026-01-18 00:15:54,270 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:15:54,425 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/sendMessage "HTTP/1.1 400 Bad Request"
+2026-01-18 00:15:54,427 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1319, in process_update
+    await coroutine
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 667, in handle_message
+    await contact_command(update, context)
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 377, in contact_command
+    await update.message.reply_text(
+    ...<8 lines>...
+    )
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_message.py", line 1771, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<20 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 2928, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 1017, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<19 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 607, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 729, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 617, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 351, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 646, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 383, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Inline keyboard button url 'tel:+998997236222' is invalid: wrong port number specified in the url
+2026-01-18 00:16:02,420 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:16:03,115 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:16:05,935 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:16:06,094 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-01-18 00:16:06,279 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/editMessageText "HTTP/1.1 200 OK"
+2026-01-18 00:16:07,362 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:16:07,502 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/sendMessage "HTTP/1.1 400 Bad Request"
+2026-01-18 00:16:07,503 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1319, in process_update
+    await coroutine
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 667, in handle_message
+    await contact_command(update, context)
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 377, in contact_command
+    await update.message.reply_text(
+    ...<8 lines>...
+    )
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_message.py", line 1771, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<20 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 2928, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 1017, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<19 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 607, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 729, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 617, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 351, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 646, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 383, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Inline keyboard button url 'tel:+998997236222' is invalid: wrong port number specified in the url
+2026-01-18 00:16:09,693 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:16:09,880 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:16:18,115 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:16:18,614 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:16:28,256 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:16:38,566 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:16:48,893 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:16:59,132 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:17:09,293 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:17:19,614 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:17:29,766 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:17:40,093 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:17:50,333 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:18:00,493 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:18:10,814 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:18:21,054 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:18:31,202 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:18:41,600 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:18:51,773 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:19:02,080 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:19:12,227 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:19:22,595 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:19:32,795 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:19:42,975 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:19:53,215 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:20:03,374 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:20:13,742 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:20:23,940 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:20:34,240 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:20:44,414 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:20:53,434 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:20:54,119 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:20:55,615 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:20:55,781 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:21:04,296 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:21:04,298 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2026-01-18 00:21:04,298 - telegram.ext.Application - INFO - Application.stop() complete
+2026-01-18 00:21:47,399 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getMe "HTTP/1.1 200 OK"
+2026-01-18 00:21:47,538 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/deleteWebhook "HTTP/1.1 200 OK"
+2026-01-18 00:21:47,540 - telegram.ext.Application - INFO - Application started
+2026-01-18 00:21:58,013 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:21:59,823 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:22:00,339 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:22:01,733 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:22:01,915 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:22:03,308 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:22:03,488 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:22:04,699 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:22:04,907 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:22:06,254 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:22:06,493 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-01-18 00:22:06,645 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/editMessageText "HTTP/1.1 400 Bad Request"
+2026-01-18 00:22:06,646 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1319, in process_update
+    await coroutine
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 515, in callback_handler
+    await show_service_details(query, service_type)
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 645, in show_service_details
+    await query.edit_message_text(
+    ...<3 lines>...
+    )
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_message.py", line 3782, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 1664, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 4101, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 607, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 729, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 617, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 351, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 646, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 383, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Inline keyboard button url 'tel:+998997236222' is invalid: wrong port number specified in the url
+2026-01-18 00:22:07,782 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:22:08,041 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-01-18 00:22:08,185 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/editMessageText "HTTP/1.1 400 Bad Request"
+2026-01-18 00:22:08,188 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1319, in process_update
+    await coroutine
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 515, in callback_handler
+    await show_service_details(query, service_type)
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 645, in show_service_details
+    await query.edit_message_text(
+    ...<3 lines>...
+    )
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_message.py", line 3782, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 1664, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 4101, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 607, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 729, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 617, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 351, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 646, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 383, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Inline keyboard button url 'tel:+998997236222' is invalid: wrong port number specified in the url
+2026-01-18 00:22:08,655 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:22:08,836 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-01-18 00:22:08,978 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/editMessageText "HTTP/1.1 400 Bad Request"
+2026-01-18 00:22:08,981 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1319, in process_update
+    await coroutine
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 515, in callback_handler
+    await show_service_details(query, service_type)
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 645, in show_service_details
+    await query.edit_message_text(
+    ...<3 lines>...
+    )
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_message.py", line 3782, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 1664, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 4101, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 607, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 729, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 617, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 351, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 646, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 383, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Inline keyboard button url 'tel:+998997236222' is invalid: wrong port number specified in the url
+2026-01-18 00:22:09,564 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:22:09,771 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-01-18 00:22:09,919 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/editMessageText "HTTP/1.1 400 Bad Request"
+2026-01-18 00:22:09,925 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1319, in process_update
+    await coroutine
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 515, in callback_handler
+    await show_service_details(query, service_type)
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 645, in show_service_details
+    await query.edit_message_text(
+    ...<3 lines>...
+    )
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_message.py", line 3782, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 1664, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 4101, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 607, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 729, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 617, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 351, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 646, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 383, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Inline keyboard button url 'tel:+998997236222' is invalid: wrong port number specified in the url
+2026-01-18 00:22:19,721 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:22:29,614 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:22:30,098 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:22:40,051 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:22:50,239 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:23:00,417 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:23:10,565 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:23:20,970 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:23:29,254 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7847069401:AAGGgVQlS5WHgfsxF5yrAfxGFxTCn6DabCU/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:23:29,257 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2026-01-18 00:23:29,258 - telegram.ext.Application - INFO - Application.stop() complete
+2026-01-18 00:24:53,442 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getMe "HTTP/1.1 200 OK"
+2026-01-18 00:24:53,582 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/deleteWebhook "HTTP/1.1 200 OK"
+2026-01-18 00:24:53,585 - telegram.ext.Application - INFO - Application started
+2026-01-18 00:24:54,139 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:24:54,340 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:54,342 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:54,520 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:54,522 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:54,695 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:54,696 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:54,866 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:54,869 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:55,045 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:55,047 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:55,213 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:55,409 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:55,410 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:55,582 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:55,584 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:55,753 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:55,755 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:55,988 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:55,990 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:56,167 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:56,170 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:56,344 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:56,346 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:56,529 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:56,531 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:56,704 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:56,895 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:56,897 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:57,062 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:57,064 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:57,224 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:57,226 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:57,407 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:57,576 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:57,578 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:57,753 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:57,755 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:57,918 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:57,919 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:58,094 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:58,096 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:58,261 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:58,263 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:58,448 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:58,450 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:58,631 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:58,813 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:58,815 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:58,988 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:58,990 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:59,180 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:59,183 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:59,362 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:59,364 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:59,529 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:59,711 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:59,713 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:24:59,893 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:24:59,895 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:25:00,112 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:25:00,114 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:25:00,314 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:25:00,316 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:25:00,503 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:25:00,505 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:25:00,679 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:25:00,683 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:25:00,851 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:25:04,303 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:25:14,530 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:25:17,546 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:25:18,138 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:25:27,694 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:25:37,854 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:25:48,092 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:25:58,335 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:26:08,495 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:26:18,644 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:26:28,789 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:26:38,931 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:26:49,079 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:26:59,235 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:27:07,659 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:27:08,282 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:27:08,286 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:27:16,280 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:27:16,869 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:27:16,872 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:27:18,702 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:27:18,873 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:27:20,997 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:27:26,082 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:27:36,254 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:27:40,381 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:27:42,981 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:27:43,173 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:27:43,680 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:27:43,690 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:27:53,345 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:28:03,503 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:28:12,605 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:28:13,081 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:28:22,764 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:28:29,080 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:28:29,523 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:28:39,233 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:28:49,371 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:28:59,521 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:29:09,712 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:29:19,939 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:29:30,083 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:29:40,235 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:29:50,407 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:30:00,577 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:30:10,753 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:30:20,902 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:30:31,044 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:30:41,213 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:30:51,362 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:31:01,504 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:31:11,643 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:31:21,799 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:31:23,613 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:31:24,282 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:31:28,095 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:31:28,272 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:31:32,575 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:31:32,752 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:31:42,975 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:31:53,138 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:32:03,285 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:32:13,479 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:32:23,616 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:32:33,764 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:32:43,909 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:32:54,336 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:33:04,606 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:33:14,816 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:33:25,057 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:33:35,195 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:33:45,376 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:33:55,773 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:34:06,016 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:34:16,256 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:34:26,496 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:34:36,737 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:34:46,886 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:34:57,034 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:35:07,176 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:35:17,319 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:35:27,455 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:35:37,609 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:35:47,761 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:35:57,921 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:36:08,064 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:36:18,206 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:36:28,355 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:36:38,499 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:36:48,641 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:36:58,788 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:37:08,954 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:37:19,098 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:37:29,247 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:37:39,436 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:37:49,701 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:37:56,865 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:38:08,163 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:38:19,516 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:38:25,366 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:38:25,647 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:38:26,568 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:38:26,571 - __main__ - INFO - Yangi foydalanuvchi: Foziljon (ID: 6616832324)
+2026-01-18 00:38:35,905 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:38:46,151 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:38:57,058 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:39:08,351 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:39:18,788 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:39:22,702 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:39:23,342 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:39:23,344 - __main__ - INFO - Yangi foydalanuvchi: Nurmuhammad (ID: 6349858458)
+2026-01-18 00:39:28,102 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:39:28,390 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:39:28,393 - __main__ - INFO - Yangi foydalanuvchi: Nurmuhammad (ID: 6349858458)
+2026-01-18 00:39:30,771 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:39:34,632 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 00:39:44,893 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:39:52,492 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:39:53,214 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-01-18 00:39:53,374 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/editMessageText "HTTP/1.1 400 Bad Request"
+2026-01-18 00:39:53,377 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1319, in process_update
+    await coroutine
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 515, in callback_handler
+    await show_service_details(query, service_type)
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 645, in show_service_details
+    await query.edit_message_text(
+    ...<3 lines>...
+    )
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_message.py", line 3782, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 1664, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 4101, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 607, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 729, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 617, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 351, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 646, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 383, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Inline keyboard button url 'tel:+998997236222' is invalid: wrong port number specified in the url
+2026-01-18 00:39:56,177 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:39:56,422 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-01-18 00:39:56,734 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/editMessageText "HTTP/1.1 400 Bad Request"
+2026-01-18 00:39:56,738 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1319, in process_update
+    await coroutine
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 515, in callback_handler
+    await show_service_details(query, service_type)
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 645, in show_service_details
+    await query.edit_message_text(
+    ...<3 lines>...
+    )
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_message.py", line 3782, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 1664, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 4101, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 607, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 729, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 617, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 351, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 646, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 383, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Inline keyboard button url 'tel:+998997236222' is invalid: wrong port number specified in the url
+2026-01-18 00:40:03,554 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:40:04,052 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-01-18 00:40:04,211 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/editMessageText "HTTP/1.1 400 Bad Request"
+2026-01-18 00:40:04,213 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1319, in process_update
+    await coroutine
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 515, in callback_handler
+    await show_service_details(query, service_type)
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 645, in show_service_details
+    await query.edit_message_text(
+    ...<3 lines>...
+    )
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_message.py", line 3782, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 1664, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 4101, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 607, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 729, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 617, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 351, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 646, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 383, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Inline keyboard button url 'tel:+998997236222' is invalid: wrong port number specified in the url
+2026-01-18 00:40:13,731 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:40:23,909 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:40:34,209 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:40:44,413 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:40:54,664 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:41:04,819 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:41:15,135 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:41:25,320 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:41:35,623 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:41:45,775 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:41:55,935 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:42:06,092 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 00:42:16,252 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:08:03,427 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getMe "HTTP/1.1 200 OK"
+2026-01-18 01:08:03,619 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/deleteWebhook "HTTP/1.1 200 OK"
+2026-01-18 01:08:03,623 - telegram.ext.Application - INFO - Application started
+2026-01-18 01:08:04,098 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:08:04,335 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:04,539 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:04,541 - __main__ - INFO - Yangi foydalanuvchi: Nurmuhammad (ID: 6349858458)
+2026-01-18 01:08:04,753 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:04,934 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:05,155 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:05,358 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:05,522 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:05,701 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:05,882 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:06,076 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:06,254 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:06,430 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:06,637 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:06,814 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:06,997 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 400 Bad Request"
+2026-01-18 01:08:06,999 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1319, in process_update
+    await coroutine
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 667, in handle_message
+    await contact_command(update, context)
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 377, in contact_command
+    await update.message.reply_text(
+    ...<8 lines>...
+    )
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_message.py", line 1771, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<20 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 2928, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 1017, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<19 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 607, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 729, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 617, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 351, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 646, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 383, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Inline keyboard button url 'tel:+998997236222' is invalid: wrong port number specified in the url
+2026-01-18 01:08:07,305 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:07,510 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:07,715 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:08,125 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:08,129 - __main__ - INFO - Yangi foydalanuvchi: Foziljon Jamoliddinov (ID: 6301282347)
+2026-01-18 01:08:08,439 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:08,440 - __main__ - INFO - Yangi foydalanuvchi: Foziljon Jamoliddinov (ID: 6301282347)
+2026-01-18 01:08:14,576 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:08:23,457 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:08:24,027 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:33,605 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:08:35,568 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:08:36,163 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:39,565 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:08:39,766 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-01-18 01:08:39,970 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/editMessageText "HTTP/1.1 400 Bad Request"
+2026-01-18 01:08:39,973 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1319, in process_update
+    await coroutine
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 515, in callback_handler
+    await show_service_details(query, service_type)
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 645, in show_service_details
+    await query.edit_message_text(
+    ...<3 lines>...
+    )
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_message.py", line 3782, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 1664, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 4101, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 607, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 729, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 617, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 351, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 646, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 383, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Inline keyboard button url 'tel:+998997236222' is invalid: wrong port number specified in the url
+2026-01-18 01:08:43,027 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:08:43,227 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 400 Bad Request"
+2026-01-18 01:08:43,230 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1319, in process_update
+    await coroutine
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 667, in handle_message
+    await contact_command(update, context)
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 377, in contact_command
+    await update.message.reply_text(
+    ...<8 lines>...
+    )
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_message.py", line 1771, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<20 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 2928, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 1017, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<19 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 607, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 729, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 617, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 351, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 646, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 383, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Inline keyboard button url 'tel:+998997236222' is invalid: wrong port number specified in the url
+2026-01-18 01:08:47,798 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:08:47,973 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 400 Bad Request"
+2026-01-18 01:08:47,974 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1319, in process_update
+    await coroutine
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 667, in handle_message
+    await contact_command(update, context)
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 377, in contact_command
+    await update.message.reply_text(
+    ...<8 lines>...
+    )
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_message.py", line 1771, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<20 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 2928, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 1017, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<19 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 607, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 729, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 617, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 351, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 646, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 383, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Inline keyboard button url 'tel:+998997236222' is invalid: wrong port number specified in the url
+2026-01-18 01:08:49,495 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:08:49,700 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:08:59,428 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:09:00,165 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:09:05,469 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:09:06,067 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-01-18 01:09:06,287 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/editMessageText "HTTP/1.1 200 OK"
+2026-01-18 01:09:15,709 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:09:26,071 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:12:58,223 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getMe "HTTP/1.1 200 OK"
+2026-01-18 01:12:58,427 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/deleteWebhook "HTTP/1.1 200 OK"
+2026-01-18 01:12:58,429 - telegram.ext.Application - INFO - Application started
+2026-01-18 01:12:59,249 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:12:59,438 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:12:59,658 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:12:59,911 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:13:00,170 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:13:09,488 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:13:19,728 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:13:29,692 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:13:30,485 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:13:40,003 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:13:50,346 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:13:54,953 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:13:55,536 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:14:03,043 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:14:03,659 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:14:07,959 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:14:08,138 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:14:17,614 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:14:18,312 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:14:20,614 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:14:20,908 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:14:22,281 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:14:22,483 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-01-18 01:14:22,704 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/editMessageText "HTTP/1.1 400 Bad Request"
+2026-01-18 01:14:22,705 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1319, in process_update
+    await coroutine
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 515, in callback_handler
+    await show_service_details(query, service_type)
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 645, in show_service_details
+    await query.edit_message_text(
+    ...<3 lines>...
+    )
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_message.py", line 3782, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 1664, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 4101, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 607, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 729, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 617, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 351, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 646, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 383, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Inline keyboard button url 'tel:+998997236222' is invalid: wrong port number specified in the url
+2026-01-18 01:14:23,114 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:14:23,318 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-01-18 01:14:23,469 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/editMessageText "HTTP/1.1 400 Bad Request"
+2026-01-18 01:14:23,472 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1319, in process_update
+    await coroutine
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 515, in callback_handler
+    await show_service_details(query, service_type)
+  File "C:\Users\user\OneDrive\Desktop\nova_x_bot\main.py", line 645, in show_service_details
+    await query.edit_message_text(
+    ...<3 lines>...
+    )
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_message.py", line 3782, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 1664, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 4101, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 607, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 729, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 617, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_extbot.py", line 351, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\_bot.py", line 646, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\request\_baserequest.py", line 383, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Inline keyboard button url 'tel:+998997236222' is invalid: wrong port number specified in the url
+2026-01-18 01:14:24,034 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:14:24,468 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:14:25,744 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:14:25,935 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:14:27,415 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:14:27,723 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/sendMessage "HTTP/1.1 200 OK"
+2026-01-18 01:14:37,757 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:14:47,906 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:14:58,134 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:15:08,296 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:15:18,507 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"
+2026-01-18 01:15:28,675 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20/getUpdates "HTTP/1.1 200 OK"

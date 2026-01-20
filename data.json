@@ -1,0 +1,41 @@
+{
+  "users": {
+    "6616832324": {
+      "username": "nnoovvaaxx",
+      "first_name": "Foziljon",
+      "join_date": "2026-01-18 00:09",
+      "order_count": 1,
+      "last_active": "2026-01-18 00:20"
+    },
+    "6349858458": {
+      "username": "olimjonov_n7",
+      "first_name": "Nurmuhammad",
+      "join_date": "2026-01-18 00:39",
+      "order_count": 0,
+      "last_active": "2026-01-18 00:39"
+    },
+    "6301282347": {
+      "username": "",
+      "first_name": "Foziljon Jamoliddinov",
+      "join_date": "2026-01-18 01:08",
+      "order_count": 0,
+      "last_active": "2026-01-18 01:08"
+    }
+  },
+  "orders": [
+    {
+      "user_id": 6616832324,
+      "timestamp": "2026-01-18 00:20",
+      "name": "",
+      "phone": "",
+      "service": "",
+      "notes": "",
+      "status": "pending"
+    }
+  ],
+  "stats": {
+    "total_users": 3,
+    "total_orders": 1,
+    "active_users": 3
+  }
+}

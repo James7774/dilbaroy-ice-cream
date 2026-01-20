@@ -1,0 +1,52 @@
+{
+  "applications": [
+    {
+      "id": 1,
+      "user_id": 8530438567,
+      "name": "$$$@",
+      "phone": "+998917617211",
+      "service": "Noma'lum",
+      "message": "+998917617211",
+      "date": "19.01.2026 20:09:11",
+      "status": "yangi",
+      "updated_at": "19.01.2026 20:09:11"
+    },
+    {
+      "id": 2,
+      "user_id": 6301282347,
+      "name": "Foziljon Jamoliddinov",
+      "phone": "45783439834",
+      "service": "Noma'lum",
+      "message": "45783439834",
+      "date": "20.01.2026 12:49:51",
+      "status": "yangi",
+      "updated_at": "20.01.2026 12:49:51"
+    }
+  ],
+  "contacts": [],
+  "ratings": [
+    {
+      "id": 1,
+      "user_id": 8530438567,
+      "rating": 5,
+      "feedback": "",
+      "date": "19.01.2026 20:08:27"
+    },
+    {
+      "id": 2,
+      "user_id": 5574039857,
+      "rating": 4,
+      "feedback": "",
+      "date": "20.01.2026 15:09:08"
+    }
+  ],
+  "users": {},
+  "stats": {
+    "total_applications": 2,
+    "total_contacts": 0,
+    "total_ratings": 2,
+    "average_rating": 4.5,
+    "today_applications": 1,
+    "last_updated": "20.01.2026 15:09:08"
+  }
+}
