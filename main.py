@@ -518,12 +518,14 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Start komandasi"""
     user = update.effective_user
     user_id = user.id
+    chat_id = update.effective_chat.id
     
     lang = db.get_user_lang(user_id)
     
     if not lang:
-        await update.message.reply_text(
-            t('select_lang', 'uz_lat'),
+        await context.bot.send_message(
+            chat_id=chat_id,
+            text=t('select_lang', 'uz_lat'),
             reply_markup=get_language_keyboard()
         )
         return
@@ -533,8 +535,9 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Admin tekshiruvi
     is_admin = user_id in ADMIN_IDS
     
-    await update.message.reply_text(
-        welcome_message,
+    await context.bot.send_message(
+        chat_id=chat_id,
+        text=welcome_message,
         parse_mode='Markdown',
         reply_markup=get_main_menu(is_admin, lang)
     )
@@ -1269,11 +1272,10 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         lang_code = data.replace("set_lang_", "")
         db.set_user_lang(user.id, lang_code)
         
-        await query.message.delete()
-        await query.message.reply_text(
-            t('lang_changed', lang_code),
-            reply_markup=get_main_menu(user.id in ADMIN_IDS, lang_code)
-        )
+        try:
+            await query.message.delete()
+        except:
+            pass
         
         # Start command xabarini yuborish
         await start_command(update, context)
