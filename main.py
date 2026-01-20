@@ -11,8 +11,26 @@ import os
 import re
 import csv
 from datetime import datetime, timedelta
+from threading import Thread
+from flask import Flask
 from telegram import Update, ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
+
+# ==================== WEB SERVER (RENDER KEEP-ALIVE) ====================
+web_app = Flask(__name__)
+
+@web_app.route('/')
+def home():
+    return "NOVA.X Bot is alive!"
+
+def run_web_server():
+    port = int(os.environ.get('PORT', 8080))
+    web_app.run(host='0.0.0.0', port=port)
+
+def keep_alive():
+    t = Thread(target=run_web_server)
+    t.daemon = True
+    t.start()
 
 # ==================== KONFIGURATSIYA ====================
 BOT_TOKEN = "7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20"
@@ -1332,6 +1350,9 @@ def main():
     print("✅ Bot muvaffaqiyatli ishga tushdi!")
     print("📱 Telegramda botni oching va /start buyrug'ini yuboring")
     print("=" * 60)
+    
+    # Render uchun web serverni ishga tushirish
+    keep_alive()
     
     # Botni ishga tushirish
     app.run_polling(allowed_updates=Update.ALL_TYPES)
