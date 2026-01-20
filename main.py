@@ -21,19 +21,30 @@ web_app = Flask(__name__)
 
 @web_app.route('/')
 def home():
-    return "NOVA.X Bot is alive!"
+    return "NOVA.X Bot is alive!", 200
+
+@web_app.route('/health')
+def health():
+    return "OK", 200
 
 def run_web_server():
+    # Render avtomatik PORT beradi, agar bo'lmasa 8080 ishlatiladi
     port = int(os.environ.get('PORT', 8080))
-    web_app.run(host='0.0.0.0', port=port)
+    logger.info(f"Web server {port}-portda ishga tushmoqda...")
+    try:
+        web_app.run(host='0.0.0.0', port=port)
+    except Exception as e:
+        logger.error(f"Web serverda xato: {e}")
 
 def keep_alive():
     t = Thread(target=run_web_server)
     t.daemon = True
     t.start()
+    logger.info("Keep-alive tizimi yoqildi.")
 
 # ==================== KONFIGURATSIYA ====================
-BOT_TOKEN = "7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20"
+# Render Environment Variables-dan o'qiydi, agar bo'lmasa pastdagini ishlatadi
+BOT_TOKEN = os.environ.get('BOT_TOKEN', "7753850166:AAHjbo_ziGmhfitrfkm6NjbWHbMtXyZah20")
 ADMIN_PHONE = "+998997236222"
 ADMIN_TELEGRAM = "@nnoovvaaxx"
 ADMIN_IDS = [6616832324]  # O'z ID ingizni qo'ying
@@ -1264,6 +1275,27 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
     elif data.startswith("rate_"):
         await handle_rating_callback(update, context)
     
+    elif data.startswith("service_"):
+        service_names = {
+            "website": "🌐 Veb-sayt yaratish",
+            "mobile": "📱 Mobil ilova",
+            "design": "🎨 UI/UX Dizayn",
+            "seo": "🔍 SEO Optimizatsiya",
+            "hosting": "☁️ Hosting va Server",
+            "other": "⚡ Boshqa xizmat"
+        }
+        service_type = data.split("_")[1]
+        name = service_names.get(service_type, "Noma'lum xizmat")
+        
+        await query.message.reply_text(
+            f"🎯 *Siz tanlagan xizmat:* {name}\n\n"
+            "Ushbu xizmat bo'yicha ariza qoldirish uchun quyidagi tugmani bosing yoki ma'lumotlaringizni yuboring.",
+            parse_mode='Markdown',
+            reply_markup=get_main_menu()
+        )
+        # Arizani boshlash
+        await start_application(update, context)
+
     elif data == "cancel_rate":
         await query.edit_message_text(
             "❌ *Baho berish bekor qilindi.*\n\n"
