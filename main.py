@@ -61,7 +61,164 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 print("=" * 70)
-print("✨🤖 NOVA.X BOT ISHGA TUSHMOQDA... 🤖✨")
+
+# ==================== TRANSLATIONS ====================
+TRANSLATIONS = {
+    'uz_lat': {
+        'select_lang': "🌍 Iltimos, tilni tanlang:\n🇷🇺 Пожалуйста, выберите язык:\n🇺🇸 Please select a language:",
+        'welcome': "✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨\n🤖 *NOVA.X GA XUSH KELIBSIZ, {name}!* 🎉\n\n🚀 *Raqamli Transformatsiya* sarguzashtingiz boshlanishi!\n\n👇 *Quyidagi menyudan kerakli bo'limni tanlang:*",
+        'menu_about': "ℹ️ BIZ HAQIMIZDA",
+        'menu_services': "🛠️ XIZMATLAR",
+        'menu_prices': "💰 NARXLAR",
+        'menu_apply': "📝 ARIZA QOLDIRISH",
+        'menu_phone': "📱 TELEFON QOLDIRISH",
+        'menu_rate': "⭐ BAHO BERISH",
+        'menu_contact': "📞 ALOQA",
+        'menu_help': "❓ YORDAM",
+        'menu_main': "🏠 ASOSIY MENYU",
+        'about_text': "🏢✨ *NOVA.X - RAQAMLI YECHIMLAR JAMOASI* ✨🏢\n\n🌟 *BIZ KIMMIZ?*\nNOVA.X - bu zamonaviy texnologiyalar va kreativ yondashuvlar orqali biznes va shaxsiy brendlarni raqamli dunyoga olib chiqishga ixtisoslashgan yuqori malakali mutaxassislar jamoasi.\n\n📞 *ALOQA:*\nTelefon: {phone}\nTelegram: {telegram}",
+        'services_text': "🛠️✨ *NOVA.X XIZMATLARI* ✨🛠️\n\n🎨 *1. DIZAYN XIZMATLARI:*\n• UI/UX Dizayn\n• Logo va brend identifikatsiyasi\n• Veb va mobil dizayn\n\n🌐 *2. VEB-DASTURLASH:*\n• Landing Page\n• Korporativ veb-saytlar\n• Onlayn do'konlar\n• Portfoliolar\n\n📱 *3. MOBIL DASTURLASH:*\n• iOS va Android ilovalari\n• Kross-platform ilovalar\n\n🔍 *4. SEO VA MARKETING:*\n• SEO Optimizatsiya\n• Digital Marketing\n\n☁️ *5. HOSTING VA SERVER:*\n• Domen va hosting\n• VPS va Cloud serverlar\n\n🛡️ *6. XAVFSIZLIK VA SUPPORT:*\n• 24/7 texnik yordam\n• Xavfsizlik himoyasi\n\n👇 *Xizmat turini tanlang:*",
+        'prices_text': "💰✨ *NOVA.X NARXLARI* ✨💰\n\n📊 *ASOSIY PAKETLAR:*\n\n🎯 *STARTUP PAKETI - 1 500 000 – 2 000 000 so‘m*\n• Responsive veb-sayt (5 sahifa)\n• Domain va hosting (1 yil)\n• SSL sertifikati\n\n🚀 *BUSINESS PAKETI - 4 000 000 – 6 000 000 so‘m*\n• Full functional veb-sayt (10 sahifa)\n• Admin panel\n• CRM tizimi\n\n🏆 *PREMIUM PAKETI - 8 000 000 – 12 000 000 so‘m*\n• Maxsus veb-ilova\n• Full CMS yoki CRM\n• Mobil ilova\n\n📞 *BATAFSIL MALUMMOT VA BEPUL MASLAHAT:*\n{phone}",
+        'contact_text': "📞✨ *NOVA.X BILAN ALOQA* ✨📞\n\n📱 *ASOSIY TELEFON:*\n{phone}\n\n(24/7 qo'llab-quvvatlash)\n\n💬 *TELEGRAM:*\n{telegram}\n\n🎯 *TEZKOR JAVOB:*\nHar qanday savolga 15 daqiqa ichida javob beramiz",
+        'help_text': "❓✨ *YORDAM VA KO'P BERILADIGAN SAVOLLAR* ✨❓\n\n🤔 *QANDAY ARIZA QOLDIRISH MUMKIN?*\n1. \"📝 Ariza qoldirish\" tugmasini bosing\n2. Ma'lumotlarni to'ldiring\n3. Xizmat turini tanlang\n\n📞 *QANCHADA JAVOB BERASIZLAR?*\n• Ish vaqtida: 15 daqiqa ichida\n\n💰 *TO'LOV QANDAY AMALGA OSHIRILADI?*\n1. 30% avans to'lov\n2. 40% ish davomida\n3. 30% topshirilganda\n\n⏰ *LOYIHA QANCHADA TAYYOR BO'LADI?*\n• Landing Page: 3-7 kun\n• Veb-sayt: 7-14 kun\n• Mobil ilova: 14-30 kun\n\n📱 *QAYSI TELEFON RAQAMLARIGA MUROJAAT QILISH KERAK?*\nAsosiy raqam: {phone}\n\n💬 *TELEGRAMDA QAYSI PROFILLAR ORQALI BOG'LANISH MUMKIN?*\n{telegram} - Asosiy profil\n\n⭐ *QANDAY BAHO BERISH MUMKIN?*\n\"⭐ Baho berish\" tugmasini bosing va 1 dan 5 gacha baholang\n\n👇 *SAVOLINGIZ QAOLSA, HOZIR BOG'LANING!*",
+        'app_start_text': "📝✨ *ARIZA QOLDIRISH* ✨📝\n\n🚀 *LOYIHANGIZNI BOSHLANG!*\n\n📋 *KERAKLI MA'LUMOTLAR:*\n\n👤 *SHU FORMATDA YUBORING:*\nIsm:     [To'liq ismingiz]\nTelefon: [998 XX YYY YY YY]\nXizmat: [Xizmat turi]\n\n👇 *MA'LUMOTLARINGIZNI YUBORING:*",
+        'app_success': "✅ *Arizangiz qabul qilindi!*\n\n🆔 *ID:* {id}\n👤 *Ism:* {name}\n📞 *Telefon:* {phone}\n🛠️ *Xizmat:* {service}\n\n⏰ *Operator 1 soat ichida aloqaga chiqadi.*\n📞 *Tezkor javob:* {admin_phone}",
+        'phone_start_text': "📱✨ *TELEFON RAQAMINGIZNI QOLDIRING* ✨📱\n\n🎯 *BU NIMA UCHUN KERAK?*\n• Siz bilan bog'lanish\n• Bepul konsultatsiya\n• Aksiya va chegirmalar haqida xabar berish\n\n📞 *QANDAY QOLDIRISH MUMKIN?*\nOddiygina telefon raqamingizni yuboring:\n\n    +998 XX XXX XX XX\n\n👇 *TELEFON RAQAMINGIZNI YUBORING:*",
+        'phone_success': "✅ *Raqamingiz qabul qilindi!*\n\n👤 *Ism:* {name}\n📞 *Telefon:* {phone}\n\n⏰ *Operator 15 daqiqa ichida aloqaga chiqadi.*\n📞 *Tezkor javob:* {admin_phone}",
+        'rating_start_text': "⭐✨ *BAHO BERISH* ✨⭐\n\n🎯 *BIZNING ISHIMIZNI BAHOLANG!*\n\n5 yulduz tizimi orqali bizning xizmatlarimizni baholang:\n\n⭐⭐⭐⭐⭐ (5) - A'lo, juda mamnun\n⭐⭐⭐⭐ (4) - Yaxshi, mamnun\n⭐⭐⭐ (3) - O'rtacha, yaxshi\n⭐⭐ (2) - Qoniqarsiz, yaxshilash kerak\n⭐ (1) - Yomon, juda norozi\n\n👇 *1 DAN 5 GACHA BAHOLANG:*",
+        'rating_success': "✅ *{rating} yulduzli baho qoldirdingiz!*\n\nRahmat, qadringizni bildirganingiz uchun!\n💫 Bahoingiz bizni yanada yaxshilanishimizga yordam beradi.\n\n📞 Agar takliflaringiz bo'lsa: {phone}",
+        'error_no_phone': "❌ Telefon raqami aniqlanmadi. Iltimos, qayta yuboring.",
+        'service_selected': "🎯 *Siz tanlagan xizmat:* {name}\n\nUshbu xizmat bo'yicha ariza qoldirish uchun ma'lumotlaringizni yuboring.",
+        'cancel_btn': "❌ Bekor qilish",
+        'back_btn': "🔙 Orqaga",
+        'service_website': "🌐 Veb-sayt yaratish",
+        'service_mobile': "📱 Mobil ilova",
+        'service_design': "🎨 UI/UX Dizayn",
+        'service_seo': "🔍 SEO Optimizatsiya",
+        'service_hosting': "☁️ Hosting va Server",
+        'service_other': "⚡ Boshqa xizmat",
+        'lang_changed': "✅ Til muvaffaqiyatli o'zgartirildi!"
+    },
+    'uz_cyr': {
+        'select_lang': "🌍 Илтимос, тилни танланг:",
+        'welcome': "✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨\n🤖 *NOVA.X ГА ХУШ КЕЛИБСИЗ, {name}!* 🎉\n\n🚀 *Рақамли Трансформация* саргузаштингиз бошланиши!\n\n👇 *Қуйидаги менюдан керакли бўлимни танланг:*",
+        'menu_about': "ℹ️ БИЗ ҲАҚИМИЗДА",
+        'menu_services': "🛠️ ХИЗМАТЛАР",
+        'menu_prices': "💰 НАРХЛАР",
+        'menu_apply': "📝 АРИЗА ҚОЛДИРИШ",
+        'menu_phone': "📱 ТЕЛЕФОН ҚОЛДИРИШ",
+        'menu_rate': "⭐ БАҲО БЕРИШ",
+        'menu_contact': "📞 АЛОҚА",
+        'menu_help': "❓ ЁРДАМ",
+        'menu_main': "🏠 АСОСИЙ МЕНЮ",
+        'about_text': "🏢✨ *NOVA.X - РАҚАМЛИ ЕЧИМЛАР ЖАМОАСИ* ✨🏢\n\n🌟 *БИЗ КИММИЗ?*\nNOVA.X - бу замонавий технологиялар ва креатив ёндашувлар орқали бизнес ва шахсий брендларни рақамли дунёга олиб чиқишга ихтисослашган юқори малакали мутахассислар жамоаси.\n\n📞 *АЛОҚА:*\nТелефон: {phone}\nТелеграм: {telegram}",
+        'services_text': "🛠️✨ *NOVA.X ХИЗМАТЛАРИ* ✨🛠️\n\n🎨 *1. ДИЗАЙН ХИЗМАТЛАРИ:*\n• UI/UX Дизайн\n• Лого ва бренд идентификацияси\n• Веб ва мобил дизайн\n\n🌐 *2. ВЕБ-ДАСТУРЛАШ:*\n• Landing Page\n• Корпоратив веб-сайтлар\n• Онлайн дўконлар\n• Портфолиолар\n\n📱 *3. МОБИЛ ДАСТУРЛАШ:*\n• iOS ва Android иловалари\n• Кросс-платформ иловалар\n\n🔍 *4. SEO ВА МАРКЕТИНГ:*\n• SEO Оптимизация\n• Digital Marketing\n\n☁️ *5. ХОСТИНГ ВА СЕРВЕР:*\n• Домен ва хостинг\n• VPS ва Cloud серверлар\n\n🛡️ *6. ХАВФСИЗЛИК ВА SUPPORT:*\n• 24/7 техник ёрдам\n• Хавфсизлик ҳимояси\n\n👇 *Хизмат турини танланг:*",
+        'prices_text': "💰✨ *NOVA.X НАРХЛАРИ* ✨💰\n\n📊 *АСОСИЙ ПАКЕТЛАР:*\n\n🎯 *STARTUP ПАКЕТИ - 1 500 000 – 2 000 000 сўм*\n• Responsive веб-сайт (5 саҳифа)\n• Домаин ва хостинг (1 йил)\n• SSL сертификати\n\n🚀 *BUSINESS ПАКЕТI - 4 000 000 – 6 000 000 сўм*\n• Full functional веб-сайт (10 саҳифа)\n• Админ панел\n• CRM тизими\n\n🏆 *PREMIUM ПАКЕТИ - 8 000 000 – 12 000 000 сўм*\n• Махсус веб-илова\n• Full CMS ёки CRM\n• Мобил илова\n\n📞 *БАТАФСИЛ МАЪЛУМОТ ВА БЕПУЛ МАСЛАҲАТ:*\n{phone}",
+        'contact_text': "📞✨ *NOVA.X БИЛАН АЛОҚА* ✨📞\n\n📱 *АСОСИЙ ТЕЛЕФОН:*\n{phone}\n\n(24/7 қўллаб-қувватлаш)\n\n💬 *ТЕЛЕГРАМ:*\n{telegram}\n\n🎯 *ТЕЗКОР ЖАВОБ:*\nҲар қандай саволга 15 дақиқа ичида жавоб берамиз",
+        'help_text': "❓✨ *ЁРДАМ ВА КЎП БЕРИЛАДИГАН САВОЛЛАР* ✨❓\n\n🤔 *ҚАНДАЙ АРИЗА ҚОЛДИРИШ МУМКИН?*\n1. \"📝 Ариза қолдириш\" тугмасини босинг\n2. Маълумотларни тўлдиринг\n3. Хизмат турини танланг\n\n📞 *ҚАНЧАДА ЖАВОБ БЕРАСИЗЛАР?*\n• Иш вақтида: 15 дақиқа ичида\n\n💰 *ТЎЛОВ ҚАНДАЙ АМАЛГА ОШИРИЛАДИ?*\n1. 30% аванс тўлов\n2. 40% иш давомида\n3. 30% топширилганда\n\n⏰ *ЛОЙИҲА ҚАНЧАДА ТАЙЁР БЎЛАДИ?*\n• Landing Page: 3-7 кун\n• Веб-сайт: 7-14 кун\n• Мобил илова: 14-30 кун\n\n📱 *ҚАЙСИ ТЕЛЕФОН РАҚАМЛАРИГА МУРОЖААТ ҚИЛИШ КЕРАК?*\nАсосий рақам: {phone}\n\n💬 *ТЕЛЕГРАМДА ҚАЙСИ ПРОФИЛЛАР ОРҚАЛИ БОҒЛАНИШ МУМКИН?*\n{telegram} - Асосий профил\n\n⭐ *ҚАНДАЙ БАҲО БЕРИШ МУМКИН?*\n\"⭐ Баҳо бериш\" тугмасини босинг ва 1 дан 5 гача баҳоланг\n\n👇 *САВОЛИНГИЗ ҚОЛСА, ҲОЗИР БОҒЛАНИНГ!*",
+        'app_start_text': "📝✨ *АРИЗА ҚОЛДИРИШ* ✨📝\n\n🚀 *ЛОЙИҲАНГИЗНИ БОШЛАНГ!*\n\n📋 *КЕРАКЛИ МАЪЛУМOTЛАР:*\n\n👤 *ШУ ФОРМАТДА ЮБОРИНГ:*\nИсм:     [Тўлиқ исмингиз]\nТелефон: [998 XX YYY YY YY]\nХизмат: [Хизмат тури]\n\n👇 *МАЪЛУМОТЛАРИНГИНГИЗНИ ЮБОРИНГ:*",
+        'app_success': "✅ *Аризангиз қабул қилинди!*\n\n🆔 *ＩＤ:* {id}\n👤 *Исм:* {name}\n📞 *Телефон:* {phone}\n🛠️ *Хизмат:* {service}\n\n⏰ *Оператор 1 соат ичида алоқага чиқади.*\n📞 *Тезкор жавоб:* {admin_phone}",
+        'phone_start_text': "📱✨ *ТЕЛЕФОН РАҚАМИНГИЗНИ ҚОЛДИРИНГ* ✨📱\n\n🎯 *БУ НИМА УЧУН КЕРАК?*\n• Сиз билан боғланиш\n• Бепул консультация\n• Акция ва чегирмалар ҳақида хабар бериш\n\n📞 *ҚАНДАЙ ҚОЛДИРИШ МУМКИН?*\nОддийгина телефон рақамингизни юборинг:\n\n    +998 XX XXX XX XX\n\n👇 *ТЕЛЕФОН РАҚАМИНГИЗНИ ЮБОРИНГ:*",
+        'phone_success': "✅ *Рақамингиз қабул қилинди!*\n\n👤 *Исм:* {name}\n📞 *Телефон:* {phone}\n\n⏰ *Оператор 15 дақиқа ичида алоқага чиқади.*\n📞 *Тезкор жавоб:* {admin_phone}",
+        'rating_start_text': "⭐✨ *БАҲО БЕРИШ* ✨⭐\n\n🎯 *БИЗНИНГ ИШИМИЗНИ БАҲОЛАНГ!*\n\n5 юлдуз тизими орқали бизнинг хизматларимизни баҳоланг:\n\n⭐⭐⭐⭐⭐ (5) - Аъло, жуда мамнун\n⭐⭐⭐⭐ (4) - Яхши, мамнун\n⭐⭐⭐ (3) - Ўртача, яхши\n⭐⭐ (2) - Қониқарсиз, яхшилаш керак\n⭐ (1) - Ёмон, жуда норози\n\n👇 *1 ДАН 5 ГАЧА БАҲОЛАНГ:*",
+        'rating_success': "✅ *{rating} юлдузли баҳо қолдирдингиз!*\n\nРаҳмат, қадрингизни билдирганингиз учун!\n💫 Баҳойингиз бизни янада яхшиланишимизга ёрдам беради.\n\n📞 Агар таклифларингиз бўлса: {phone}",
+        'error_no_phone': "❌ Телефон рақами аниқланмади. Илтимос, қайта юборинг.",
+        'service_selected': "🎯 *Сиз танлаган хизмат:* {name}\n\nУшбу хизмат бўйича ариза қолдириш учун маълумотларингизни юборинг.",
+        'cancel_btn': "❌ Бекор қилиш",
+        'back_btn': "🔙 Орқага",
+        'service_website': "🌐 Веб-сайт яратиш",
+        'service_mobile': "📱 Мобил илова",
+        'service_design': "🎨 UI/UX Дизайн",
+        'service_seo': "🔍 SEO Оптимизация",
+        'service_hosting': "☁️ Хостинг ва Сервер",
+        'service_other': "⚡ Бошқа хизмат",
+        'lang_changed': "✅ Тил муваффақиятли ўзгартирилди!"
+    },
+    'ru': {
+        'select_lang': "🌍 Пожалуйста, выберите язык:",
+        'welcome': "✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨\n🤖 *ДОБРО ПОЖАЛОВАТЬ В NOVA.X, {name}!* 🎉\n\n🚀 Ваше приключение в мире *Цифровой Трансформации* начинается!\n\n👇 *Выберите нужный раздел из меню ниже:*",
+        'menu_about': "ℹ️ О НАС",
+        'menu_services': "🛠️ УСЛУГИ",
+        'menu_prices': "💰 ЦЕНЫ",
+        'menu_apply': "📝 ОСТАВИТЬ ЗАЯВКУ",
+        'menu_phone': "📱 ОСТАВИТЬ НОМЕР",
+        'menu_rate': "⭐ ОЦЕНИТЬ",
+        'menu_contact': "📞 КОНТАКТЫ",
+        'menu_help': "❓ ПОМОЩЬ",
+        'menu_main': "🏠 ГЛАВНОЕ МЕНЮ",
+        'about_text': "🏢✨ *NOVA.X - КОМАНДА ЦИФРОВЫХ РЕШЕНИЙ* ✨🏢\n\n🌟 *КТО МЫ?*\nNOVA.X - это команда высококвалифицированных специалистов, специализирующаяся на выводе бизнеса и личных брендов в цифровой мир с помощью современных технологий и креативных подходов.\n\n📞 *КОНТАКТЫ:*\nТелефон: {phone}\nTelegram: {telegram}",
+        'services_text': "🛠️✨ *УСЛУГИ NOVA.X* ✨🛠️\n\n🎨 *1. ДИЗАЙН:*\n• UI/UX Дизайн\n• Логотип и брендинг\n• Веб и мобильный дизайн\n\n🌐 *2. ВЕБ-РАЗРАБОТКА:*\n• Landing Page\n• Корпоративные сайты\n• Онлайн магазины\n• Портфолио\n\n📱 *3. МОБИЛЬНАЯ РАЗРАБОТКА:*\n• Приложения для iOS и Android\n• Кроссплатформенные приложения\n\n🔍 *4. SEO И МАРКЕТИНГ:*\n• SEO Оптимизация\n• Digital Marketing\n\n☁️ *5. ХОСТИНГ И СЕРВЕР:*\n• Домен и хостинг\n• VPS и Cloud серверы\n\n🛡️ *6. БЕЗОПАСНОСТЬ И ПОДДЕРЖКА:*\n• Техподдержка 24/7\n• Защита безопасности\n\n👇 *Выберите тип услуги:*",
+        'prices_text': "💰✨ *ЦЕНЫ NOVA.X* ✨💰\n\n📊 *ОСНОВНЫЕ ПАКЕТЫ:*\n\n🎯 *STARTUP ПАКЕТ - 1 500 000 – 2 000 000 сум*\n• Адаптивный сайт (5 страниц)\n• Домен и хостинг (1 год)\n• SSL сертификат\n\n🚀 *BUSINESS ПАКЕТ - 4 000 000 – 6 000 000 сум*\n• Полнофункциональный сайт (10 страниц)\n• Админ панель\n• CRM система\n\n🏆 *PREMIUM ПАКЕТ - 8 000 000 – 12 000 000 сум*\n• Специальное веб-приложение\n• Full CMS или CRM\n• Мобильное приложение\n\n📞 *ПОДРОБНУЮ ИНФОРМАЦИЮ МОЖНО ПОЛУЧИТЬ ПО ТЕЛЕФОНУ:*\n{phone}",
+        'contact_text': "📞✨ *СВЯЗЬ С NOVA.X* ✨📞\n\n📱 *ОСНОВНОЙ ТЕЛЕФОН:*\n{phone}\n\n(Поддержка 24/7)\n\n💬 *TELEGRAM:*\n{telegram}\n\n🎯 *БЫСТРЫЙ ОТВЕТ:*\nОтвечаем на любые вопросы в течение 15 минут",
+        'help_text': "❓✨ *ПОМОЩЬ И ОТВЕТЫ НА ВОПРОСЫ* ✨❓\n\n🤔 *КАК ОСТАВИТЬ ЗАЯВКУ?*\n1. Нажмите кнопку \"📝 Оставить заявку\"\n2. Заполните данные\n3. Выберите тип услуги\n\n📞 *КАК БЫСТРО ВЫ ОТВЕЧАЕТЕ?*\n• В рабочее время: в течение 15 минут\n\n💰 *КАК ОСУЩЕСТВЛЯЕТСЯ ОПЛАТА?*\n1. 30% аванс\n2. 40% во время работы\n3. 30% при сдаче\n\n⏰ *СРОКИ ВЫПОЛНЕНИЯ?*\n• Landing Page: 3-7 дней\n• Веб-сайт: 7-14 дней\n• Мобильное приложение: 14-30 дней\n\n📱 *ПО КАКИМ НОМЕРАМ ОБРАЩАТЬСЯ?*\nОсновной номер: {phone}\n\n💬 *ПО КАКИМ ПРОФИЛЯМ СВЯЗАТЬСЯ В TELEGRAM?*\n{telegram} - Основной профиль\n\n⭐ *КАК ОСТАВИТЬ ОТЗЫВ?*\nНажмите кнопку \"⭐ Оценить\" и поставьте от 1 до 5 звезд\n\n👇 *ЕСЛИ ОСТАЛИСЬ ВОПРОСЫ, СВЯЖИТЕСЬ СЕЙЧАС!*",
+        'app_start_text': "📝✨ *ОСТАВИТЬ ЗАЯВКУ* ✨📝\n\n🚀 *НАЧНИТЕ СВОЙ ПРОЕКТ!*\n\n📋 *НЕОБХОДИМЫЕ ДАННЫЕ:*\n\n👤 *ОТПРАВЬТЕ В ТАКОМ ФОРМАТЕ:*\nИмя:     [Ваше полное имя]\nТелефон: [998 XX YYY YY YY]\nУслуга:  [Тип услуги]\n\n👇 *ОТПРАВЬТЕ ВАШИ ДАННЫЕ:*",
+        'app_success': "✅ *Ваша заявка принята!*\n\n🆔 *ＩＤ:* {id}\n👤 *Имя:* {name}\n📞 *Телефон:* {phone}\n🛠️ *Услуга:* {service}\n\n⏰ *Оператор свяжется с вами в течение 1 часа.*\n📞 *Быстрый ответ:* {admin_phone}",
+        'phone_start_text': "📱✨ *ОСТАВЬТЕ СВОЙ НОМЕР* ✨📱\n\n🎯 *ДЛЯ ЧЕГО ЭТО НУЖНО?*\n• Чтобы связаться с вами\n• Бесплатная консультация\n• Уведомления об акциях и скидках\n\n📞 *КАК ОСТАВИТЬ?*\nПросто отправьте свой номер телефона:\n\n    +998 XX XXX XX XX\n\n👇 *ОТПРАВЬТЕ ВАШ НОМЕР ТЕЛЕФОНА:*",
+        'phone_success': "✅ *Ваш номер принят!*\n\n👤 *Имя:* {name}\n📞 *Телефон:* {phone}\n\n⏰ *Оператор свяжется с вами в течение 15 минут.*\n📞 *Быстрый ответ:* {admin_phone}",
+        'rating_start_text': "⭐✨ *ОЦЕНКА КАЧЕСТВА* ✨⭐\n\n🎯 *ОЦЕНИТЕ НАШУ РАБОТУ!*\n\nОцените наши услуги по 5-балльной шкале:\n\n⭐⭐⭐⭐⭐ (5) - Отлично, очень доволен\n⭐⭐⭐⭐ (4) - Хорошо, доволен\n⭐⭐⭐ (3) - Средне, нормально\n⭐⭐ (2) - Неудовлетворительно, нужно улучшить\n⭐ (1) - Плохо, очень недоволен\n\n👇 *ОЦЕНИТЕ ОТ 1 ДО 5:*",
+        'rating_success': "✅ *Вы оставили оценку {rating} звезд!*\n\nСпасибо, что цените нашу работу!\n💫 Ваш отзыв поможет нам стать еще лучше.\n\n📞 Если есть предложения: {phone}",
+        'error_no_phone': "❌ Номер телефона не определен. Пожалуйста, отправьте еще раз.",
+        'service_selected': "🎯 *Выбранная услуга:* {name}\n\nОтправьте свои данные, чтобы оставить заявку на эту услугу.",
+        'cancel_btn': "❌ Отмена",
+        'back_btn': "🔙 Назад",
+        'service_website': "🌐 Создание веб-сайтов",
+        'service_mobile': "📱 Мобильные приложения",
+        'service_design': "🎨 UI/UX Дизайн",
+        'service_seo': "🔍 SEO Оптимизация",
+        'service_hosting': "☁️ Хостинг и Серверы",
+        'service_other': "⚡ Другие услуги",
+        'lang_changed': "✅ Язык успешно изменен!"
+    },
+    'en': {
+        'select_lang': "🌍 Please select a language:",
+        'welcome': "✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨\n🤖 *WELCOME TO NOVA.X, {name}!* 🎉\n\n🚀 Your *Digital Transformation* adventure starts here!\n\n👇 *Select the desired section from the menu below:*",
+        'menu_about': "ℹ️ ABOUT US",
+        'menu_services': "🛠️ SERVICES",
+        'menu_prices': "💰 PRICES",
+        'menu_apply': "📝 LEAVE APPLICATION",
+        'menu_phone': "📱 LEAVE PHONE",
+        'menu_rate': "⭐ RATE US",
+        'menu_contact': "📞 CONTACT",
+        'menu_help': "❓ HELP",
+        'menu_main': "🏠 MAIN MENU",
+        'about_text': "🏢✨ *NOVA.X - DIGITAL SOLUTIONS TEAM* ✨🏢\n\n🌟 *WHO ARE WE?*\nNOVA.X is a team of highly qualified specialists dedicated to bringing businesses and personal brands into the digital world through modern technologies and creative approaches.\n\n📞 *CONTACT:*\nPhone: {phone}\nTelegram: {telegram}",
+        'services_text': "🛠️✨ *NOVA.X SERVICES* ✨🛠️\n\n🎨 *1. DESIGN SERVICES:*\n• UI/UX Design\n• Logo and brand identity\n• Web and mobile design\n\n🌐 *2. WEB DEVELOPMENT:*\n• Landing Page\n• Corporate websites\n• Online stores\n• Portfolios\n\n📱 *3. MOBILE DEVELOPMENT:*\n• iOS and Android apps\n• Cross-platform apps\n\n🔍 *4. SEO AND MARKETING:*\n• SEO Optimization\n• Digital Marketing\n\n☁️ *5. HOSTING AND SERVER:*\n• Domain and hosting\n• VPS and Cloud servers\n\n🛡️ *6. SECURITY AND SUPPORT:*\n• 24/7 technical support\n• Security protection\n\n👇 *Select a service type:*",
+        'prices_text': "💰✨ *NOVA.X PRICES* ✨💰\n\n📊 *MAIN PACKAGES:*\n\n🎯 *STARTUP PACKAGE - 1,500,000 – 2,000,000 UZS*\n• Responsive website (5 pages)\n• Domain and hosting (1 year)\n• SSL certificate\n\n🚀 *BUSINESS PACKAGE - 4,000,000 – 6,000,000 UZS*\n• Full functional website (10 pages)\n• Admin panel\n• CRM system\n\n🏆 *PREMIUM PACKAGE - 8,000,000 – 12,000,000 UZS*\n• Special web application\n• Full CMS or CRM\n• Mobile application\n\n📞 *FOR MORE INFORMATION AND FREE CONSULTATION:* \n{phone}",
+        'contact_text': "📞✨ *CONTACT NOVA.X* ✨📞\n\n📱 *MAIN PHONE:*\n{phone}\n\n(24/7 Support)\n\n💬 *TELEGRAM:*\n{telegram}\n\n🎯 *QUICK RESPONSE:*\nWe answer any questions within 15 minutes",
+        'help_text': "❓✨ *HELP AND FAQ* ✨❓\n\n🤔 *HOW TO LEAVE AN APPLICATION?*\n1. Press the \"📝 Leave application\" button\n2. Fill in the information\n3. Select the service type\n\n📞 *HOW FAST DO YOU RESPOND?*\n• During working hours: within 15 minutes\n\n💰 *HOW IS PAYMENT MADE?*\n1. 30% advance payment\n2. 40% during work\n3. 30% upon delivery\n\n⏰ *HOW LONG DOES THE PROJECT TAKE?*\n• Landing Page: 3-7 days\n• Website: 7-14 days\n• Mobile App: 14-30 days\n\n📱 *WHICH PHONE NUMBERS TO CONTACT?*\nMain number: {phone}\n\n💬 *WHICH TELEGRAM PROFILES TO CONTACT?*\n{telegram} - Main profile\n\n⭐ *HOW TO RATE US?*\nPress the \"⭐ Rate us\" button and rate from 1 to 5\n\n👇 *IF YOU HAVE ANY QUESTIONS, CONTACT US NOW!*",
+        'app_start_text': "📝✨ *LEAVE APPLICATION* ✨📝\n\n🚀 *START YOUR PROJECT!*\n\n📋 *REQUIRED INFORMATION:*\n\n👤 *SEND IN THIS FORMAT:*\nName:    [Your full name]\nPhone:   [998 XX YYY YY YY]\nService: [Service type]\n\n👇 *SEND YOUR INFORMATION:*",
+        'app_success': "✅ *Your application has been accepted!*\n\n🆔 *ＩＤ:* {id}\n👤 *Name:* {name}\n📞 *Phone:* {phone}\n🛠️ *Service:* {service}\n\n⏰ *Operator will contact you within 1 hour.*\n📞 *Quick response:* {admin_phone}",
+        'phone_start_text': "📱✨ *LEAVE YOUR PHONE NUMBER* ✨📱\n\n🎯 *WHY IS THIS NEEDED?*\n• To contact you\n• Free consultation\n• Notification about promotions and discounts\n\n📞 *HOW TO LEAVE?*\nSimply send your phone number:\n\n    +998 XX XXX XX XX\n\n👇 *SEND YOUR PHONE NUMBER:*",
+        'phone_success': "✅ *Your number has been accepted!*\n\n👤 *Name:* {name}\n📞 *Phone:* {phone}\n\n⏰ *Operator will contact you within 15 minutes.*\n📞 *Quick response:* {admin_phone}",
+        'rating_start_text': "⭐✨ *RATE US* ✨⭐\n\n🎯 *RATE OUR WORK!*\n\nRate our services through the 5-star system:\n\n⭐⭐⭐⭐⭐ (5) - Excellent, very satisfied\n⭐⭐⭐⭐ (4) - Good, satisfied\n⭐⭐⭐ (3) - Average, okay\n⭐⭐ (2) - Unsatisfactory, need improvement\n⭐ (1) - Poor, very dissatisfied\n\n👇 *RATE FROM 1 TO 5:*",
+        'rating_success': "✅ *You gave a {rating}-star rating!*\n\nThank you for valuing our work!\n💫 Your rating helps us to improve further.\n\n📞 If you have suggestions: {phone}",
+        'error_no_phone': "❌ Phone number not detected. Please send again.",
+        'service_selected': "🎯 *Your selected service:* {name}\n\nSend your information to leave an application for this service.",
+        'cancel_btn': "❌ Cancel",
+        'back_btn': "🔙 Back",
+        'service_website': "🌐 Website Creation",
+        'service_mobile': "📱 Mobile App",
+        'service_design': "🎨 UI/UX Design",
+        'service_seo': "🔍 SEO Optimization",
+        'service_hosting': "☁️ Hosting and Server",
+        'service_other': "⚡ Other service",
+        'lang_changed': "✅ Language successfully changed!"
+    }
+}
+
+def t(key, lang, **kwargs):
+    """Tarjima yordamchisi"""
+    if not lang:
+        lang = 'uz_lat'
+    
+    text = TRANSLATIONS.get(lang, TRANSLATIONS['uz_lat']).get(key, TRANSLATIONS['uz_lat'].get(key, key))
+    if kwargs:
+        try:
+            return text.format(**kwargs)
+        except:
+            return text
+    return text
+
 print("=" * 70)
 
 # ==================== DATABASE ====================
@@ -113,6 +270,24 @@ class NovaDatabase:
                     "monthly_applications": 0
                 }
             }
+    
+    def set_user_lang(self, user_id: int, lang: str):
+        """Foydalanuvchi tilini saqlash"""
+        if "users" not in self.data:
+            self.data["users"] = {}
+        
+        user_id_str = str(user_id)
+        if user_id_str not in self.data["users"]:
+            self.data["users"][user_id_str] = {}
+            
+        self.data["users"][user_id_str]["lang"] = lang
+        self.save_data()
+
+    def get_user_lang(self, user_id: int):
+        """Foydalanuvchi tilini olish"""
+        if "users" not in self.data:
+            return None
+        return self.data.get("users", {}).get(str(user_id), {}).get("lang")
     
     def save_data(self):
         """Ma'lumotlarni saqlash"""
@@ -243,7 +418,17 @@ class NovaDatabase:
 db = NovaDatabase()
 
 # ==================== MENYULAR ====================
-def get_main_menu(is_admin: bool = False):
+def get_language_keyboard():
+    """Tilni tanlash uchun inline keyboard"""
+    keyboard = [
+        [InlineKeyboardButton("🇺🇿 O'zbek (Lotin)", callback_data="set_lang_uz_lat")],
+        [InlineKeyboardButton("🇺🇿 Ўзбек (Кирилл)", callback_data="set_lang_uz_cyr")],
+        [InlineKeyboardButton("🇷🇺 Русский", callback_data="set_lang_ru")],
+        [InlineKeyboardButton("🇺🇸 English", callback_data="set_lang_en")]
+    ]
+    return InlineKeyboardMarkup(keyboard)
+
+def get_main_menu(is_admin: bool = False, lang: str = 'uz_lat'):
     """Asosiy menyu"""
     if is_admin:
         buttons = [
@@ -254,16 +439,10 @@ def get_main_menu(is_admin: bool = False):
         ]
     else:
         buttons = [
-            # ["ℹ️ BIZ HAQIMIZDA", "🛠️ XIZMATLAR", "💰 NARXLAR"],
-            # ["📝 ARIZA QOLDIRISH", "📱 TELEFON QOLDIRISH", "⭐ BAHO BERISH"],
-            # ["📞 ALOQA", "❓ YORDAM"]
-
-            ["ℹ️ BIZ HAQIMIZDA", "🛠️ XIZMATLAR"],
-            ["💰 NARXLAR", "📝 ARIZA QOLDIRISH"],
-            ["📱 TELEFON QOLDIRISH", "⭐ BAHO BERISH"],
-            ["📞 ALOQA", "❓ YORDAM"]
-            
-           
+            [t('menu_about', lang), t('menu_services', lang)],
+            [t('menu_prices', lang), t('menu_apply', lang)],
+            [t('menu_phone', lang), t('menu_rate', lang)],
+            [t('menu_contact', lang), t('menu_help', lang)]
         ]
     
     return ReplyKeyboardMarkup(buttons, resize_keyboard=True)
@@ -335,14 +514,16 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
     user_id = user.id
     
-    welcome_message = f"""
-✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
-🤖 *NOVA.X GA XUSH KELIBSIZ, {user.first_name}!* 🎉
+    lang = db.get_user_lang(user_id)
+    
+    if not lang:
+        await update.message.reply_text(
+            t('select_lang', 'uz_lat'),
+            reply_markup=get_language_keyboard()
+        )
+        return
 
-🚀 *Raqamli Transformatsiya* sarguzashtingiz boshlanishi!
-
-👇 *Quyidagi menyudan kerakli bo'limni tanlang:*
-    """
+    welcome_message = t('welcome', lang, name=user.first_name)
     
     # Admin tekshiruvi
     is_admin = user_id in ADMIN_IDS
@@ -350,167 +531,59 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         welcome_message,
         parse_mode='Markdown',
-        reply_markup=get_main_menu(is_admin)
+        reply_markup=get_main_menu(is_admin, lang)
     )
 
 async def about_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Biz haqimizda"""
-    about_text = f"""
-🏢✨ *NOVA.X - RAQAMLI YECHIMLAR JAMOASI* ✨🏢
-
-🌟 *BIZ KIMMIZ?*
-NOVA.X - bu zamonaviy texnologiyalar va kreativ yondashuvlar orqali biznes va shaxsiy brendlarni raqamli dunyoga olib chiqishga ixtisoslashgan yuqori malakali mutaxassislar jamoasi.
-
-📞 *ALOQA:*
-Telefon: {ADMIN_PHONE}
-Telegram: {ADMIN_TELEGRAM}
-    """
-    
+    lang = db.get_user_lang(update.effective_user.id) or 'uz_lat'
+    about_text = t('about_text', lang, phone=ADMIN_PHONE, telegram=ADMIN_TELEGRAM)
     await update.message.reply_text(about_text, parse_mode='Markdown')
 
 async def services_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Xizmatlar"""
-    services_text = """
-🛠️✨ *NOVA.X XIZMATLARI* ✨🛠️
-
-🎨 *1. DIZAYN XIZMATLARI:*
-• UI/UX Dizayn
-• Logo va brend identifikatsiyasi
-• Veb va mobil dizayn
-
-🌐 *2. VEB-DASTURLASH:*
-• Landing Page
-• Korporativ veb-saytlar
-• Onlayn do'konlar
-• Portfoliolar
-
-📱 *3. MOBIL DASTURLASH:*
-• iOS va Android ilovalari
-• Kross-platform ilovalar
-
-🔍 *4. SEO VA MARKETING:*
-• SEO Optimizatsiya
-• Digital Marketing
-
-☁️ *5. HOSTING VA SERVER:*
-• Domen va hosting
-• VPS va Cloud serverlar
-
-🛡️ *6. XAVFSIZLIK VA SUPPORT:*
-• 24/7 texnik yordam
-• Xavfsizlik himoyasi
-
-👇 *Xizmat turini tanlang:*
-    """
+    lang = db.get_user_lang(update.effective_user.id) or 'uz_lat'
+    services_text = t('services_text', lang)
+    
+    # Custom keyboard for services with translations
+    buttons = [
+        [InlineKeyboardButton(t('service_website', lang), callback_data="service_website")],
+        [InlineKeyboardButton(t('service_mobile', lang), callback_data="service_mobile")],
+        [InlineKeyboardButton(t('service_design', lang), callback_data="service_design")],
+        [InlineKeyboardButton(t('service_seo', lang), callback_data="service_seo")],
+        [InlineKeyboardButton(t('service_hosting', lang), callback_data="service_hosting")],
+        [InlineKeyboardButton(t('service_other', lang), callback_data="service_other")]
+    ]
     
     await update.message.reply_text(
         services_text, 
         parse_mode='Markdown',
-        reply_markup=get_service_keyboard()
+        reply_markup=InlineKeyboardMarkup(buttons)
     )
 
 async def prices_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Narxlar"""
-    prices_text = f"""
-💰✨ *NOVA.X NARXLARI* ✨💰
-
-📊 *ASOSIY PAKETLAR:*
-
-🎯 *STARTUP PAKETI - 1 500 000 – 2 000 000 so‘m*
-• Responsive veb-sayt (5 sahifa)
-• Domain va hosting (1 yil)
-• SSL sertifikati
-
-🚀 *BUSINESS PAKETI - 4 000 000 – 6 000 000 so‘m*
-• Full functional veb-sayt (10 sahifa)
-• Admin panel
-• CRM tizimi
-
-🏆 *PREMIUM PAKETI - 8 000 000 – 12 000 000 so‘m*
-• Maxsus veb-ilova
-• Full CMS yoki CRM
-• Mobil ilova
-
-📞 *BATAFSIL MALUMMOT VA BEPUL MASLAHAT:*
-{ADMIN_PHONE}
-    """
-    
+    lang = db.get_user_lang(update.effective_user.id) or 'uz_lat'
+    prices_text = t('prices_text', lang, phone=ADMIN_PHONE)
     await update.message.reply_text(prices_text, parse_mode='Markdown')
 
 async def contact_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Aloqa"""
-    contact_text = f"""
-📞✨ *NOVA.X BILAN ALOQA* ✨📞
-
-📱 *ASOSIY TELEFON:*
-{ADMIN_PHONE}
-
-(24/7 qo'llab-quvvatlash)
-
-💬 *TELEGRAM:*
-{ADMIN_TELEGRAM}
-
-🎯 *TEZKOR JAVOB:*
-Har qanday savolga 15 daqiqa ichida javob beramiz
-    """
-    
+    lang = db.get_user_lang(update.effective_user.id) or 'uz_lat'
+    contact_text = t('contact_text', lang, phone=ADMIN_PHONE, telegram=ADMIN_TELEGRAM)
     await update.message.reply_text(contact_text, parse_mode='Markdown')
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Yordam"""
-    help_text = f"""
-❓✨ *YORDAM VA KO'P BERILADIGAN SAVOLLAR* ✨❓
-
-🤔 *QANDAY ARIZA QOLDIRISH MUMKIN?*
-1. "📝 Ariza qoldirish" tugmasini bosing
-2. Ma'lumotlarni to'ldiring
-3. Xizmat turini tanlang
-
-📞 *QANCHADA JAVOB BERASIZLAR?*
-• Ish vaqtida: 15 daqiqa ichida
-
-💰 *TO'LOV QANDAY AMALGA OSHIRILADI?*
-1. 30% avans to'lov
-2. 40% ish davomida
-3. 30% topshirilganda
-
-⏰ *LOYIHA QANCHADA TAYYOR BO'LADI?*
-• Landing Page: 3-7 kun
-• Veb-sayt: 7-14 kun
-• Mobil ilova: 14-30 kun
-
-📱 *QAYSI TELEFON RAQAMLARIGA MUROJAAT QILISH KERAK?*
-Asosiy raqam: {ADMIN_PHONE}
-
-💬 *TELEGRAMDA QAYSI PROFILLAR ORQALI BOG'LANISH MUMKIN?*
-{ADMIN_TELEGRAM} - Asosiy profil
-
-⭐ *QANDAY BAHO BERISH MUMKIN?*
-"⭐ Baho berish" tugmasini bosing va 1 dan 5 gacha baholang
-
-👇 *SAVOLINGIZ QAOLSA, HOZIR BOG'LANING!*
-    """
-    
+    lang = db.get_user_lang(update.effective_user.id) or 'uz_lat'
+    help_text = t('help_text', lang, phone=ADMIN_PHONE, telegram=ADMIN_TELEGRAM)
     await update.message.reply_text(help_text, parse_mode='Markdown')
 
 # ==================== APPLICATION FUNCTIONS ====================
 async def start_application(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Ariza boshlash"""
-    application_text = """
-📝✨ *ARIZA QOLDIRISH* ✨📝
-
-🚀 *LOYIHANGIZNI BOSHLANG!*
-
-📋 *KERAKLI MA'LUMOTLAR:*
-
-👤 *SHU FORMATDA YUBORING:*
-Ism:     [To'liq ismingiz]
-Telefon: [998 XX YYY YY YY]
-Xizmat: [Xizmat turi]
-
-👇 *MA'LUMOTLARINGIZNI YUBORING:*
-    """
-    
+    lang = db.get_user_lang(update.effective_user.id) or 'uz_lat'
+    application_text = t('app_start_text', lang)
     await update.message.reply_text(application_text, parse_mode='Markdown')
     context.user_data['awaiting_application'] = True
 
@@ -521,6 +594,7 @@ async def handle_application(update: Update, context: ContextTypes.DEFAULT_TYPE)
     
     user = update.effective_user
     text = update.message.text
+    lang = db.get_user_lang(user.id) or 'uz_lat'
     
     # Ma'lumotlarni ajratish
     name = user.first_name or "Noma'lum"
@@ -534,11 +608,11 @@ async def handle_application(update: Update, context: ContextTypes.DEFAULT_TYPE)
             key = key.strip().lower()
             value = value.strip()
             
-            if 'ism' in key:
+            if 'ism' in key or 'name' in key or 'исм' in key:
                 name = value
-            elif 'tel' in key or 'phone' in key:
+            elif 'tel' in key or 'phone' in key or 'тел' in key:
                 phone = value
-            elif 'xizmat' in key:
+            elif 'xizmat' in key or 'service' in key or 'хизмат' in key or 'услуга' in key:
                 service = value
     
     # Raqamni topish
@@ -550,7 +624,7 @@ async def handle_application(update: Update, context: ContextTypes.DEFAULT_TYPE)
             phone = text
     
     if not phone:
-        await update.message.reply_text("❌ Telefon raqami aniqlanmadi. Iltimos, qayta yuboring.")
+        await update.message.reply_text(t('error_no_phone', lang))
         return
     
     # Saqlash
@@ -558,15 +632,9 @@ async def handle_application(update: Update, context: ContextTypes.DEFAULT_TYPE)
     
     # Foydalanuvchiga javob
     await update.message.reply_text(
-        f"✅ *Arizangiz qabul qilindi!*\n\n"
-        f"🆔 *ID:* {app['id']}\n"
-        f"👤 *Ism:* {name}\n"
-        f"📞 *Telefon:* {phone}\n"
-        f"🛠️ *Xizmat:* {service}\n\n"
-        f"⏰ *Operator 1 soat ichida aloqaga chiqadi.*\n"
-        f"📞 *Tezkor javob:* {ADMIN_PHONE}",
+        t('app_success', lang, id=app['id'], name=name, phone=phone, service=service, admin_phone=ADMIN_PHONE),
         parse_mode='Markdown',
-        reply_markup=get_main_menu()
+        reply_markup=get_main_menu(lang=lang)
     )
     
     # Adminlarga xabar
@@ -579,7 +647,8 @@ async def handle_application(update: Update, context: ContextTypes.DEFAULT_TYPE)
                      f"📞 *Telefon:* {phone}\n"
                      f"🛠️ *Xizmat:* {service}\n"
                      f"📅 *Vaqt:* {app['date']}\n"
-                     f"🆔 *User ID:* {user.id}",
+                     f"🆔 *User ID:* {user.id}\n"
+                     f"🌐 *Til:* {lang}",
                 parse_mode='Markdown'
             )
         except:
@@ -590,24 +659,8 @@ async def handle_application(update: Update, context: ContextTypes.DEFAULT_TYPE)
 # ==================== PHONE CONTACT FUNCTIONS ====================
 async def start_phone_contact(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Telefon qoldirish"""
-    phone_text = """
-📱✨ *TELEFON RAQAMINGIZNI QOLDIRING* ✨📱
-
-🎯 *BU NIMA UCHUN KERAK?*
-• Siz bilan bog'lanish
-• Bepul konsultatsiya
-• Aksiya va chegirmalar haqida xabar berish
-
-📞 *QANDAY QOLDIRISH MUMKIN?*
-Oddiygina telefon raqamingizni yuboring:
-
-    +998 XX XXX XX XX
-    YOKI
-    +998 XX XXX XX XX
-
-👇 *TELEFON RAQAMINGIZNI YUBORING:*
-    """
-    
+    lang = db.get_user_lang(update.effective_user.id) or 'uz_lat'
+    phone_text = t('phone_start_text', lang)
     await update.message.reply_text(phone_text, parse_mode='Markdown')
     context.user_data['awaiting_phone'] = True
 
@@ -618,6 +671,7 @@ async def handle_phone_contact(update: Update, context: ContextTypes.DEFAULT_TYP
     
     user = update.effective_user
     text = update.message.text
+    lang = db.get_user_lang(user.id) or 'uz_lat'
     
     # Telefon raqamini topish
     phone = ""
@@ -628,7 +682,7 @@ async def handle_phone_contact(update: Update, context: ContextTypes.DEFAULT_TYP
         phone = text
     
     if not phone:
-        await update.message.reply_text("❌ Telefon raqami aniqlanmadi. Iltimos, raqamingizni yuboring.")
+        await update.message.reply_text(t('error_no_phone', lang))
         return
     
     name = user.first_name or "Noma'lum"
@@ -638,13 +692,9 @@ async def handle_phone_contact(update: Update, context: ContextTypes.DEFAULT_TYP
     
     # Foydalanuvchiga javob
     await update.message.reply_text(
-        f"✅ *Raqamingiz qabul qilindi!*\n\n"
-        f"👤 *Ism:* {name}\n"
-        f"📞 *Telefon:* {phone}\n\n"
-        f"⏰ *Operator 15 daqiqa ichida aloqaga chiqadi.*\n"
-        f"📞 *Tezkor javob:* {ADMIN_PHONE}",
+        t('phone_success', lang, name=name, phone=phone, admin_phone=ADMIN_PHONE),
         parse_mode='Markdown',
-        reply_markup=get_main_menu()
+        reply_markup=get_main_menu(lang=lang)
     )
     
     # Adminlarga xabar
@@ -656,7 +706,8 @@ async def handle_phone_contact(update: Update, context: ContextTypes.DEFAULT_TYP
                      f"👤 *Ism:* {name}\n"
                      f"📞 *Telefon:* {phone}\n"
                      f"📅 *Vaqt:* {contact['date']}\n"
-                     f"🆔 *User ID:* {user.id}",
+                     f"🆔 *User ID:* {user.id}\n"
+                     f"🌐 *Til:* {lang}",
                 parse_mode='Markdown'
             )
         except:
@@ -667,38 +718,33 @@ async def handle_phone_contact(update: Update, context: ContextTypes.DEFAULT_TYP
 # ==================== RATING FUNCTIONS ====================
 async def start_rating(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Baho berishni boshlash"""
-    rating_text = """
-⭐✨ *BAHO BERISH* ✨⭐
-
-🎯 *BIZNING ISHIMIZNI BAHOLANG!*
-
-5 yulduz tizimi orqali bizning xizmatlarimizni baholang:
-
-⭐⭐⭐⭐⭐ (5) - A'lo, juda mamnun
-⭐⭐⭐⭐ (4) - Yaxshi, mamnun
-⭐⭐⭐ (3) - O'rtacha, yaxshi
-⭐⭐ (2) - Qoniqarsiz, yaxshilash kerak
-⭐ (1) - Yomon, juda norozi
-
-👇 *1 DAN 5 GACHA BAHOLANG:*
-    """
+    lang = db.get_user_lang(update.effective_user.id) or 'uz_lat'
+    rating_text = t('rating_start_text', lang)
+    
+    # Custom rating keyboard with translations
+    keyboard = []
+    for i in range(1, 6):
+        stars = "⭐" * i
+        keyboard.append([InlineKeyboardButton(f"{stars} ({i}/5)", callback_data=f"rate_{i}")])
+    
+    keyboard.append([InlineKeyboardButton(t('cancel_btn', lang), callback_data="cancel_rate")])
     
     await update.message.reply_text(
         rating_text,
         parse_mode='Markdown',
-        reply_markup=get_rating_keyboard()
+        reply_markup=InlineKeyboardMarkup(keyboard)
     )
 
 async def handle_rating_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Baho berish callback"""
     query = update.callback_query
     await query.answer()
+    user = query.from_user
+    lang = db.get_user_lang(user.id) or 'uz_lat'
     
     if query.data == "cancel_rate":
         await query.edit_message_text(
-            "❌ *Baho berish bekor qilindi.*\n\n"
-            "Istalgan vaqtda qayta baho berishingiz mumkin.",
-            parse_mode='Markdown'
+            f"❌ *{t('cancel_btn', lang)}*."
         )
         return
     
@@ -706,7 +752,6 @@ async def handle_rating_callback(update: Update, context: ContextTypes.DEFAULT_T
         rating = int(query.data.split("_")[1])
         
         # Bahoni saqlash
-        user = query.from_user
         db.add_rating(user.id, rating)
         
         # Bahoga javob
@@ -715,10 +760,7 @@ async def handle_rating_callback(update: Update, context: ContextTypes.DEFAULT_T
         
         await query.edit_message_text(
             f"{stars}{empty_stars}\n\n"
-            f"✅ *{rating} yulduzli baho qoldirdingiz!*\n\n"
-            f"🎯 *Rahmat, qadringizni bildirganingiz uchun!*\n"
-            f"💫 Bahoingiz bizni yanada yaxshilanishimizga yordam beradi.\n\n"
-            f"📞 Agar takliflaringiz bo'lsa: {ADMIN_PHONE}",
+            f"{t('rating_success', lang, rating=rating, phone=ADMIN_PHONE)}",
             parse_mode='Markdown'
         )
         
@@ -1215,7 +1257,23 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await query.answer()
     
     data = query.data
+    user = query.from_user
     
+    # Tilni sozlash
+    if data.startswith("set_lang_"):
+        lang_code = data.replace("set_lang_", "")
+        db.set_user_lang(user.id, lang_code)
+        
+        await query.message.delete()
+        await query.message.reply_text(
+            t('lang_changed', lang_code),
+            reply_markup=get_main_menu(user.id in ADMIN_IDS, lang_code)
+        )
+        
+        # Start command xabarini yuborish
+        await start_command(update, context)
+        return
+
     # Admin callback lar
     if data.startswith("admin_"):
         if data == "admin_back":
@@ -1276,31 +1334,30 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await handle_rating_callback(update, context)
     
     elif data.startswith("service_"):
+        user_lang = db.get_user_lang(user.id) or 'uz_lat'
         service_names = {
-            "website": "🌐 Veb-sayt yaratish",
-            "mobile": "📱 Mobil ilova",
-            "design": "🎨 UI/UX Dizayn",
-            "seo": "🔍 SEO Optimizatsiya",
-            "hosting": "☁️ Hosting va Server",
-            "other": "⚡ Boshqa xizmat"
+            "website": t('service_website', user_lang),
+            "mobile": t('service_mobile', user_lang),
+            "design": t('service_design', user_lang),
+            "seo": t('service_seo', user_lang),
+            "hosting": t('service_hosting', user_lang),
+            "other": t('service_other', user_lang)
         }
         service_type = data.split("_")[1]
         name = service_names.get(service_type, "Noma'lum xizmat")
         
         await query.message.reply_text(
-            f"🎯 *Siz tanlagan xizmat:* {name}\n\n"
-            "Ushbu xizmat bo'yicha ariza qoldirish uchun quyidagi tugmani bosing yoki ma'lumotlaringizni yuboring.",
+            t('service_selected', user_lang, name=name),
             parse_mode='Markdown',
-            reply_markup=get_main_menu()
+            reply_markup=get_main_menu(lang=user_lang)
         )
         # Arizani boshlash
         await start_application(update, context)
 
     elif data == "cancel_rate":
+        user_lang = db.get_user_lang(user.id) or 'uz_lat'
         await query.edit_message_text(
-            "❌ *Baho berish bekor qilindi.*\n\n"
-            "Istalgan vaqtda qayta baho berishingiz mumkin.",
-            parse_mode='Markdown'
+            f"❌ *{t('cancel_btn', user_lang)}*"
         )
 
 # ==================== MESSAGE HANDLER ====================
@@ -1308,59 +1365,74 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Xabarlarni qayta ishlash"""
     user = update.effective_user
     text = update.message.text
+    lang = db.get_user_lang(user.id) or 'uz_lat'
     
-    # Admin bo'lsa
+    # Admin bo'lsa (admin panel tugmalari o'zgarmaydi)
     if user.id in ADMIN_IDS:
         if text == "📊 STATISTIKA":
             await admin_stats(update, context)
+            return
         elif text == "📋 ARIZALAR":
             await admin_applications(update, context)
+            return
         elif text == "📅 BUGUNGI":
             await admin_today_apps(update, context)
+            return
         elif text == "📞 KONTAKTLAR":
             await admin_contacts(update, context)
+            return
         elif text == "⭐ BAHOLAR":
             await admin_ratings(update, context)
+            return
         elif text == "📤 EXPORT":
             await admin_export(update, context)
+            return
         elif text == "⚙️ SOZLAMALAR":
             await admin_settings(update, context)
+            return
         elif text == "🏠 ASOSIY MENYU":
             await start_command(update, context)
-    
-    # Oddiy foydalanuvchi bo'lsa
+            return
+
+    # User tugmalarini tekshirish (barcha tillarda)
+    def check_btn(key):
+        for l in TRANSLATIONS:
+            if TRANSLATIONS[l].get(key) == text:
+                return True
+        return False
+
+    if check_btn('menu_about'):
+        await about_command(update, context)
+    elif check_btn('menu_services'):
+        await services_command(update, context)
+    elif check_btn('menu_prices'):
+        await prices_command(update, context)
+    elif check_btn('menu_apply'):
+        await start_application(update, context)
+    elif check_btn('menu_phone'):
+        await start_phone_contact(update, context)
+    elif check_btn('menu_rate'):
+        await start_rating(update, context)
+    elif check_btn('menu_contact'):
+        await contact_command(update, context)
+    elif check_btn('menu_help'):
+        await help_command(update, context)
+    elif check_btn('menu_main'):
+        await start_command(update, context)
     else:
-        if text == "ℹ️ BIZ HAQIMIZDA":
-            await about_command(update, context)
-        elif text == "🛠️ XIZMATLAR":
-            await services_command(update, context)
-        elif text == "💰 NARXLAR":
-            await prices_command(update, context)
-        elif text == "📝 ARIZA QOLDIRISH":
-            await start_application(update, context)
-        elif text == "📱 TELEFON QOLDIRISH":
-            await start_phone_contact(update, context)
-        elif text == "⭐ BAHO BERISH":
-            await start_rating(update, context)
-        elif text == "📞 ALOQA":
-            await contact_command(update, context)
-        elif text == "❓ YORDAM":
-            await help_command(update, context)
+        # Agar ariza yoki telefon kutilayotgan bo'lsa
+        if context.user_data.get('awaiting_application'):
+            await handle_application(update, context)
+        elif context.user_data.get('awaiting_phone'):
+            await handle_phone_contact(update, context)
         else:
-            # Agar ariza yoki telefon kutilayotgan bo'lsa
-            if context.user_data.get('awaiting_application'):
-                await handle_application(update, context)
-            elif context.user_data.get('awaiting_phone'):
-                await handle_phone_contact(update, context)
-            else:
-                # Boshqa har qanday xabar uchun
-                await update.message.reply_text(
-                    "🤖 *Iltimos, menyudan variant tanlang.*\n\n"
-                    "Ariza yoki telefon qoldirish uchun tegishli tugmalarni bosing.\n\n"
-                    f"📞 *Yordam:* {ADMIN_PHONE}",
-                    parse_mode='Markdown',
-                    reply_markup=get_main_menu()
-                )
+            # Boshqa har qanday xabar uchun
+            await update.message.reply_text(
+                "🤖 *...*\n\n"
+                f"{t('menu_help', lang)}: {ADMIN_PHONE}",
+                parse_mode='Markdown',
+                reply_markup=get_main_menu(lang=lang)
+            )
 
 # ==================== MAIN FUNCTION ====================
 def main():
