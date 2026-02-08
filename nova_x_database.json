@@ -32,6 +32,17 @@
       "date": "08.02.2026 13:01:03",
       "status": "yangi",
       "updated_at": "08.02.2026 13:01:03"
+    },
+    {
+      "id": 4,
+      "user_id": 7110355459,
+      "name": "Muxammad yusuf",
+      "phone": " \n200222246\n",
+      "service": "Noma'lum",
+      "message": "Abdulaziz \n200222246\nGrand 20dona doda 20dona\nNamangan banana market",
+      "date": "08.02.2026 13:08:58",
+      "status": "yangi",
+      "updated_at": "08.02.2026 13:08:58"
     }
   ],
   "contacts": [],
@@ -73,11 +84,11 @@
     }
   },
   "stats": {
-    "total_applications": 3,
+    "total_applications": 4,
     "total_contacts": 0,
     "total_ratings": 3,
     "average_rating": 4.7,
-    "today_applications": 1,
-    "last_updated": "08.02.2026 13:07:26"
+    "today_applications": 2,
+    "last_updated": "08.02.2026 13:08:58"
   }
 }

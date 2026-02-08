@@ -611,22 +611,25 @@ async def handle_application(update: Update, context: ContextTypes.DEFAULT_TYPE)
     name = user.first_name or "Noma'lum"
     phone = ""
     service = "Noma'lum"
+    address = "Noma'lum"
     
     lines = text.split('\n')
     for line in lines:
         if ':' in line:
-            key, value = line.split(':', 1)
-            key = key.strip().lower()
-            value = value.strip()
+            parts = line.split(':', 1)
+            key = parts[0].strip().lower()
+            value = parts[1].strip()
             
-            if 'ism' in key or 'name' in key or 'исм' in key:
+            if any(k in key for k in ['ism', 'name', 'исм']):
                 name = value
-            elif 'tel' in key or 'phone' in key or 'тел' in key:
+            elif any(k in key for k in ['tel', 'phone', 'тел']):
                 phone = value
-            elif 'xizmat' in key or 'service' in key or 'хизмат' in key or 'услуга' in key:
+            elif any(k in key for k in ['xizmat', 'service', 'хизмат', 'услуга', 'turi', 'muzqaymoq']):
                 service = value
+            elif any(k in key for k in ['manzil', 'address', 'manzil']):
+                address = value
     
-    # Raqamni topish
+    # Raqamni topish (agar parsingda topilmagan bo'lsa)
     if not phone:
         numbers = re.findall(r'[\+\d\s\-\(\)]{10,}', text)
         if numbers:
@@ -638,8 +641,13 @@ async def handle_application(update: Update, context: ContextTypes.DEFAULT_TYPE)
         await update.message.reply_text(t('error_no_phone', lang))
         return
     
+    # Ma'lumotlarni birlashtirish (service + address agar bo'lsa)
+    full_service_info = service
+    if address != "Noma'lum":
+        full_service_info += f" | Manzil: {address}"
+    
     # Saqlash
-    app = db.add_application(user.id, name, phone, service, text)
+    app = db.add_application(user.id, name, phone, full_service_info, text)
     
     # Foydalanuvchiga javob
     await update.message.reply_text(
@@ -653,10 +661,12 @@ async def handle_application(update: Update, context: ContextTypes.DEFAULT_TYPE)
         try:
             await context.bot.send_message(
                 chat_id=admin_id,
-                text=f"📥 *YANGI ARIZA #{app['id']}*\n\n"
+                text=f"📥 *YANGI BUYURTMA #{app['id']}*\n\n"
                      f"👤 *Ism:* {name}\n"
                      f"📞 *Telefon:* {phone}\n"
-                     f"🛠️ *Xizmat:* {service}\n"
+                     f"🍨 *Buyurtma:* {service}\n"
+                     f"📍 *Manzil:* {address}\n\n"
+                     f"📝 *To'liq xabar:*\n{text}\n\n"
                      f"📅 *Vaqt:* {app['date']}\n"
                      f"🆔 *User ID:* {user.id}\n"
                      f"🌐 *Til:* {lang}",
