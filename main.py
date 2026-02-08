@@ -436,10 +436,9 @@ def get_main_menu(is_admin: bool = False, lang: str = 'uz_lat'):
     """Asosiy menyu"""
     if is_admin:
         buttons = [
-            ["📊 STATISTIKA", "📋 ARIZALAR"],
+            ["📊 STATISTIKA", "📋 BUYURTMALAR"],
             ["📅 BUGUNGI", "📞 KONTAKTLAR"],
-            ["⭐ BAHOLAR", "📤 EXPORT"],
-            ["⚙️ SOZLAMALAR", "🏠 ASOSIY MENYU"]
+            ["🏠 ASOSIY MENYU"]
         ]
     else:
         buttons = [
@@ -636,6 +635,11 @@ async def handle_application(update: Update, context: ContextTypes.DEFAULT_TYPE)
             phone = numbers[0]
         elif text.replace('+', '').replace(' ', '').isdigit():
             phone = text
+    
+    # Muzqaymoq turini tekshirish (fallback)
+    if service == "Noma'lum":
+        # Agar xizmat nomi topilmagan bo'lsa, xabarning birinchi qismini olamiz
+        service = text.split('\n')[0][:30] + ("..." if len(text.split('\n')[0]) > 30 else "")
     
     if not phone:
         await update.message.reply_text(t('error_no_phone', lang))
@@ -892,12 +896,12 @@ async def admin_show_applications(update: Update, context: ContextTypes.DEFAULT_
             "jarayonda": "⏳",
             "completed": "✅",
             "cancelled": "❌"
-        }.get(app.get("status", "yangi"), "📝")
+        }.get(app.get("status", "yangi"), "🍦")
         
         text += f"""
 {status_emoji} *#{app['id']}* - {app['name']}
 📞 {app['phone']}
-🛠️ {app['service']}
+🍨 {app['service']}
 📅 {app['date']}
 {'='*30}
 """
@@ -1392,7 +1396,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if text == "📊 STATISTIKA":
             await admin_stats(update, context)
             return
-        elif text == "📋 ARIZALAR":
+        elif text == "📋 BUYURTMALAR" or text == "📋 ARIZALAR":
             await admin_applications(update, context)
             return
         elif text == "📅 BUGUNGI":
