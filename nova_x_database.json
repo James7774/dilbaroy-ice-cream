@@ -21,6 +21,17 @@
       "date": "20.01.2026 12:49:51",
       "status": "yangi",
       "updated_at": "20.01.2026 12:49:51"
+    },
+    {
+      "id": 3,
+      "user_id": 6616832324,
+      "name": "Foziljon",
+      "phone": "\n998 99 723 62 22\n",
+      "service": "Noma'lum",
+      "message": "Foziljon\n998 99 723 62 22\nplombir",
+      "date": "08.02.2026 13:01:03",
+      "status": "yangi",
+      "updated_at": "08.02.2026 13:01:03"
     }
   ],
   "contacts": [],
@@ -38,15 +49,35 @@
       "rating": 4,
       "feedback": "",
       "date": "20.01.2026 15:09:08"
+    },
+    {
+      "id": 3,
+      "user_id": 7110355459,
+      "rating": 5,
+      "feedback": "",
+      "date": "08.02.2026 13:05:09"
     }
   ],
-  "users": {},
+  "users": {
+    "6616832324": {
+      "lang": "uz_lat"
+    },
+    "7150278934": {
+      "lang": "uz_lat"
+    },
+    "6301282347": {
+      "lang": "uz_lat"
+    },
+    "7110355459": {
+      "lang": "uz_cyr"
+    }
+  },
   "stats": {
-    "total_applications": 2,
+    "total_applications": 3,
     "total_contacts": 0,
-    "total_ratings": 2,
-    "average_rating": 4.5,
+    "total_ratings": 3,
+    "average_rating": 4.7,
     "today_applications": 1,
-    "last_updated": "20.01.2026 15:09:08"
+    "last_updated": "08.02.2026 13:07:26"
   }
 }
