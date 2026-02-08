@@ -65,6 +65,39 @@
       "date": "08.02.2026 13:18:19",
       "status": "yangi",
       "updated_at": "08.02.2026 13:18:19"
+    },
+    {
+      "id": 7,
+      "user_id": 6616832324,
+      "name": "Foziljon",
+      "phone": " \n99 723 62 22\n",
+      "service": "foziljon ",
+      "message": "foziljon \n99 723 62 22\ngrant 400000 ta",
+      "date": "08.02.2026 13:25:05",
+      "status": "completed",
+      "updated_at": "08.02.2026 13:26:40"
+    },
+    {
+      "id": 8,
+      "user_id": 6616832324,
+      "name": "Foziljon",
+      "phone": " \n99 723 6222\n",
+      "service": "fozilnon ",
+      "message": "fozilnon \n99 723 6222\ndoda 50ta",
+      "date": "08.02.2026 13:27:32",
+      "status": "completed",
+      "updated_at": "08.02.2026 13:29:12"
+    },
+    {
+      "id": 9,
+      "user_id": 7110355459,
+      "name": "Muxammad yusuf",
+      "phone": " \n+998778777788\n",
+      "service": "Abdulloh ",
+      "message": "Abdulloh \n+998778777788\nDoda 20ta grant 40ta magnit 40",
+      "date": "08.02.2026 13:29:05",
+      "status": "new",
+      "updated_at": "08.02.2026 13:29:05"
     }
   ],
   "contacts": [],
@@ -106,11 +139,11 @@
     }
   },
   "stats": {
-    "total_applications": 6,
+    "total_applications": 9,
     "total_contacts": 0,
     "total_ratings": 3,
     "average_rating": 4.7,
-    "today_applications": 4,
-    "last_updated": "08.02.2026 13:18:19"
+    "today_applications": 7,
+    "last_updated": "08.02.2026 13:29:12"
   }
 }
