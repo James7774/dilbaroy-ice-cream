@@ -339,7 +339,7 @@ class NovaDatabase:
             "service": service,
             "message": message,
             "date": datetime.now().strftime("%d.%m.%Y %H:%M:%S"),
-            "status": "yangi",
+            "status": "new",
             "updated_at": datetime.now().strftime("%d.%m.%Y %H:%M:%S")
         }
         
@@ -454,8 +454,8 @@ def get_main_menu(is_admin: bool = False, lang: str = 'uz_lat'):
 def get_admin_applications_menu():
     """Admin arizalar menyusi"""
     keyboard = [
-        [InlineKeyboardButton("🆕 Yangi arizalar", callback_data="admin_apps_new")],
-        [InlineKeyboardButton("⏳ Jarayonda", callback_data="admin_apps_progress")],
+        [InlineKeyboardButton("🆕 Yangi buyurtmalar", callback_data="admin_apps_new")],
+        [InlineKeyboardButton("⏳ Jarayonda", callback_data="admin_apps_process")],
         [InlineKeyboardButton("✅ Bajarilgan", callback_data="admin_apps_completed")],
         [InlineKeyboardButton("❌ Bekor qilingan", callback_data="admin_apps_cancelled")],
         [InlineKeyboardButton("📊 Barchasi", callback_data="admin_apps_all")],
@@ -479,12 +479,12 @@ def get_application_actions(app_id: int):
     """Ariza uchun amallar"""
     keyboard = [
         [
-            InlineKeyboardButton("✅ Bajarildi", callback_data=f"app_complete_{app_id}"),
-            InlineKeyboardButton("⏳ Jarayonda", callback_data=f"app_progress_{app_id}")
+            InlineKeyboardButton("✅ Bajarildi", callback_data=f"admin_app_complete_{app_id}"),
+            InlineKeyboardButton("⏳ Jarayonda", callback_data=f"admin_app_process_{app_id}")
         ],
         [
-            InlineKeyboardButton("❌ Bekor qilish", callback_data=f"app_cancel_{app_id}"),
-            InlineKeyboardButton("📞 Bog'lanish", callback_data=f"app_contact_{app_id}")
+            InlineKeyboardButton("❌ Bekor qilish", callback_data=f"admin_app_cancel_{app_id}"),
+            InlineKeyboardButton("📞 Bog'lanish", callback_data=f"admin_app_contact_{app_id}")
         ],
         [InlineKeyboardButton("🔙 Orqaga", callback_data="admin_apps_all")]
     ]
@@ -892,11 +892,11 @@ async def admin_show_applications(update: Update, context: ContextTypes.DEFAULT_
     # So'nggi 10 ta ariza
     for app in applications[-10:]:
         status_emoji = {
-            "yangi": "🆕",
-            "jarayonda": "⏳",
+            "new": "🆕",
+            "process": "⏳",
             "completed": "✅",
             "cancelled": "❌"
-        }.get(app.get("status", "yangi"), "🍦")
+        }.get(app.get("status", "new"), "🍦")
         
         text += f"""
 {status_emoji} *#{app['id']}* - {app['name']}
@@ -939,11 +939,11 @@ async def admin_application_detail(update: Update, context: ContextTypes.DEFAULT
         return
     
     status_emoji = {
-        "yangi": "🆕",
-        "jarayonda": "⏳",
+        "new": "🆕",
+        "process": "⏳",
         "completed": "✅",
         "cancelled": "❌"
-    }.get(app.get("status", "yangi"), "📝")
+    }.get(app.get("status", "new"), "🍦")
     
     text = f"""
 {status_emoji} *ARIZA #{app['id']}*
@@ -1311,32 +1311,32 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
             app_id = int(data.split("_")[3])
             await admin_application_detail(update, context, app_id)
         
-        elif data.startswith("app_complete_"):
-            app_id = int(data.split("_")[2])
+        elif data.startswith("admin_app_complete_"):
+            app_id = int(data.split("_")[3])
             db.update_application_status(app_id, "completed")
             await query.edit_message_text(
-                f"✅ Ariza #{app_id} bajarildi deb belgilandi!",
+                f"✅ Buyurtma #{app_id} bajarildi deb belgilandi!",
                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Orqaga", callback_data=f"admin_app_detail_{app_id}")]])
             )
         
-        elif data.startswith("app_progress_"):
-            app_id = int(data.split("_")[2])
-            db.update_application_status(app_id, "jarayonda")
+        elif data.startswith("admin_app_process_"):
+            app_id = int(data.split("_")[3])
+            db.update_application_status(app_id, "process")
             await query.edit_message_text(
-                f"⏳ Ariza #{app_id} jarayonda deb belgilandi!",
+                f"⏳ Buyurtma #{app_id} jarayonda deb belgilandi!",
                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Orqaga", callback_data=f"admin_app_detail_{app_id}")]])
             )
         
-        elif data.startswith("app_cancel_"):
-            app_id = int(data.split("_")[2])
+        elif data.startswith("admin_app_cancel_"):
+            app_id = int(data.split("_")[3])
             db.update_application_status(app_id, "cancelled")
             await query.edit_message_text(
-                f"❌ Ariza #{app_id} bekor qilindi!",
+                f"❌ Buyurtma #{app_id} bekor qilindi!",
                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Orqaga", callback_data=f"admin_app_detail_{app_id}")]])
             )
         
-        elif data.startswith("app_contact_"):
-            app_id = int(data.split("_")[2])
+        elif data.startswith("admin_app_contact_"):
+            app_id = int(data.split("_")[3])
             apps = db.get_all_applications()
             app = next((a for a in apps if a["id"] == app_id), None)
             if app:
@@ -1344,8 +1344,9 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     f"📞 *QO'NG'IROQ QILISH:*\n\n"
                     f"👤 Mijoz: {app['name']}\n"
                     f"📞 Telefon: {app['phone']}\n\n"
-                    f"💬 Ish turi: {app['service']}",
-                    parse_mode='Markdown'
+                    f"💬 Buyurtma: {app['service']}",
+                    parse_mode='Markdown',
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Orqaga", callback_data=f"admin_app_detail_{app_id}")]])
                 )
     
     # Export callback lar

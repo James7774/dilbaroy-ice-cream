@@ -54,6 +54,17 @@
       "date": "08.02.2026 13:13:52",
       "status": "yangi",
       "updated_at": "08.02.2026 13:13:52"
+    },
+    {
+      "id": 6,
+      "user_id": 6616832324,
+      "name": "Foziljon",
+      "phone": "\n99 723 62 22\n",
+      "service": "foziljon",
+      "message": "foziljon\n99 723 62 22\ndoda 20 ta",
+      "date": "08.02.2026 13:18:19",
+      "status": "yangi",
+      "updated_at": "08.02.2026 13:18:19"
     }
   ],
   "contacts": [],
@@ -95,11 +106,11 @@
     }
   },
   "stats": {
-    "total_applications": 5,
+    "total_applications": 6,
     "total_contacts": 0,
     "total_ratings": 3,
     "average_rating": 4.7,
-    "today_applications": 3,
-    "last_updated": "08.02.2026 13:13:52"
+    "today_applications": 4,
+    "last_updated": "08.02.2026 13:18:19"
   }
 }
