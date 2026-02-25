@@ -10,6 +10,7 @@ import json
 import os
 import re
 import csv
+import asyncio
 from datetime import datetime, timedelta
 from threading import Thread
 from flask import Flask
@@ -1493,10 +1494,17 @@ def main():
     # Render uchun web serverni ishga tushirish
     keep_alive()
     
+    # Event loop-ni sozlash (Render/Python 3.10+ uchun muhim)
+    try:
+        loop = asyncio.get_event_loop()
+    except RuntimeError:
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+
     # Botni ishga tushirish
     # drop_pending_updates=True eski xabarlarni o'chirib yuboradi
     try:
-        app.run_polling(drop_pending_updates=True)
+        app.run_polling(drop_pending_updates=True, close_loop=False)
     except Exception as e:
         logger.error(f"BOT TO'XTAB QOLDI! Xatolik: {e}")
         import traceback
