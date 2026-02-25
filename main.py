@@ -37,10 +37,14 @@ def run_web_server():
         logger.error(f"Web serverda xato: {e}")
 
 def keep_alive():
-    t = Thread(target=run_web_server)
-    t.daemon = True
-    t.start()
-    logger.info("Keep-alive tizimi yoqildi.")
+    """Web serverni alohida threadda ishga tushirish"""
+    try:
+        t = Thread(target=run_web_server)
+        t.daemon = True
+        t.start()
+        logger.info("Keep-alive tizimi (Flask) muvaffaqiyatli ishga tushirildi.")
+    except Exception as e:
+        logger.error(f"Keep-alive tizimini ishga tushirishda xato: {e}")
 
 # ==================== KONFIGURATSIYA ====================
 # Render Environment Variables-dan o'qiydi, agar bo'lmasa pastdagini ishlatadi
@@ -1490,7 +1494,13 @@ def main():
     keep_alive()
     
     # Botni ishga tushirish
-    app.run_polling(allowed_updates=Update.ALL_TYPES)
+    # drop_pending_updates=True eski xabarlarni o'chirib yuboradi
+    try:
+        app.run_polling(drop_pending_updates=True)
+    except Exception as e:
+        logger.error(f"BOT TO'XTAB QOLDI! Xatolik: {e}")
+        import traceback
+        traceback.print_exc()
 
 if __name__ == '__main__':
     main()
